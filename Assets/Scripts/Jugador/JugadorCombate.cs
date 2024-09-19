@@ -5,7 +5,9 @@ using UnityEngine;
 namespace Jugador {
     public class JugadorCombate : MonoBehaviour
     {
-        public GameObject manzana;
+        public GameObject manzanaMano;
+        public GameObject nuevaManzana;
+        public Transform puntoSalidaManzana;
         private bool manzanaActiva = false;
 
         public Animator aniJugador;
@@ -13,11 +15,13 @@ namespace Jugador {
         public int cantManzanas = 0;
         public int cantBebida = 0;
 
+        public float fuerzaLanzamiento;
+
 
         void Update()
         {
             Ataque();
-            CambiarArma();
+            ActivarManzanaBomba();
             LanzarManzana();
         }
 
@@ -33,7 +37,7 @@ namespace Jugador {
             }
         }
 
-        void CambiarArma()
+        void ActivarManzanaBomba()
         {
             if (Input.GetAxis("Mouse ScrollWheel") > 0f && cantManzanas > 0)        // Deslizar hacia arriba
             {
@@ -47,24 +51,36 @@ namespace Jugador {
 
         void ActivarManzana()
         {
-            manzana.SetActive(true);
+            manzanaMano.SetActive(true);
             manzanaActiva = true;
         }
 
         void DesactivarManzana()
         {
-            manzana.SetActive(false);
+            manzanaMano.SetActive(false);
             manzanaActiva = false;
         }
 
         void LanzarManzana()
         {
             if (Input.GetMouseButtonDown(1) && manzanaActiva) // Click derecho
-            {
+            { 
+                manzanaActiva = false;
                 cantManzanas--;
                 aniJugador.Play("Lanzar");
-                //Aqui se desactiva la manzana mas no se elimina ni se instancia
+                StartCoroutine("SalidaManzana");
             }
+        }
+
+        IEnumerator SalidaManzana(){
+
+            yield return new WaitForSeconds(.56f);
+            manzanaMano.SetActive(false);
+            
+            yield return new WaitForSeconds(.1f);
+            GameObject manzanaLanzada = Instantiate(nuevaManzana, puntoSalidaManzana.transform.position + transform.forward, Quaternion.identity);
+            manzanaLanzada.GetComponent<Rigidbody>().AddForce(transform.forward * fuerzaLanzamiento);
+            //Destroy(manzanaLanzada, 3f);
         }
 
         public void TomaBebida(){
@@ -72,6 +88,8 @@ namespace Jugador {
                 cantBebida--;
                 JugadorVida.Instance.RecuperarVida(10);
                 Debug.Log("Recupera 10 de salud");
+            }else{
+                Debug.Log("Ya no tienes bebidas");
             }
         }
 
