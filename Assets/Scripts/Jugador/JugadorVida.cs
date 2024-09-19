@@ -44,7 +44,7 @@ namespace Jugador
             saludActual += cantidad;
             if (saludActual > saludMax)
             {
-                saludActual = saludMax;
+                saludActual = saludMax; // No permitir que se pase de la salud máxima
             }
         }
 
