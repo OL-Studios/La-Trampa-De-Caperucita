@@ -49,7 +49,7 @@ namespace Recolectables{
                 }
             }
             gameObject.GetComponent<CapsuleCollider>().enabled = false;
-            Destroy(gameObject, 1f);
+            Destroy(gameObject);
             //Destroy(explosionParticles, 7f);
         }
     }
