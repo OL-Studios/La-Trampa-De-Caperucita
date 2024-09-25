@@ -1,0 +1,22 @@
+#dejare los link y el lugar donde descargar los assets, es solo que los incluyan 
+desde el package manager a exepcion de algunos que deben isntalarlos pero es 
+supremamente sencillo
+
+#RUTA/NOMBRE/LINK O LUGAR/
+
+!!!!!!IMPORTANTE!!!!!!!!!
+
+LOS QUE SE INSTALAN, QUEDAN INSTALADOS EN LA CARPETA GENERAL DE ASSETS,
+RECUERDEN POR FAVOR PASARLO A LA CARPETA DE ART Y ASSETS COMO DICE LA RUTA,
+O NO FUNCIONARA
+
+
+[Aa]ssets/[Aa]rt/[Aa]ssets/Fantasy characters(pack)/INSTALAR Y ENVIADO
+[Aa]ssets/[Aa]rt/[Aa]ssets/FencesPack/https://assetstore.unity.com/packages/3d/environments/realistic-fences-pack-211850
+[Aa]ssets/[Aa]rt/[Aa]ssets/GreenBugGames/https://assetstore.unity.com/packages/3d/vegetation/scan-stump-vol-1-196185
+[Aa]ssets/[Aa]rt/[Aa]ssets/HEROIC FANTASY CREATURES FULL PACK VOL 1/
+[Aa]ssets/[Aa]rt/[Aa]ssets/HouseRef/INSTALAR Y ENVIADO
+[Aa]ssets/[Aa]rt/[Aa]ssets/Rocks and Boulders 2/https://assetstore.unity.com/packages/3d/props/exterior/rock-and-boulders-2-6947/
+[Aa]ssets/[Aa]rt/[Aa]ssets/RPG MEDIEVAL PROPS/https://assetstore.unity.com/packages/3d/props/rpg-medieval-props-demo-248681/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Stylized Nature Pack/INSTALAR Y ENVIADO
+[Aa]ssets/[Aa]rt/[Aa]ssets/Toby Fredson/https://assetstore.unity.com/packages/2d/textures-materials/painted-tiles-sleeping-forest-49170/
