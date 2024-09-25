@@ -11,6 +11,21 @@
 /[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/[Aa]rt/[Aa]ssets/**/*.meta
+
+[Aa]ssets/[Aa]rt/[Aa]ssets/Fantasy characters(pack)/
+[Aa]ssets/[Aa]rt/[Aa]ssets/FencesPack/
+[Aa]ssets/[Aa]rt/[Aa]ssets/GreenBugGames/
+[Aa]ssets/[Aa]rt/[Aa]ssets/HEROIC FANTASY CREATURES FULL PACK VOL 1/
+[Aa]ssets/[Aa]rt/[Aa]ssets/HouseRef/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Rocks and Boulders 2/
+[Aa]ssets/[Aa]rt/[Aa]ssets/RPG MEDIEVAL PROPS/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Stylized Nature Pack/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Toby Fredson/
+
+
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
