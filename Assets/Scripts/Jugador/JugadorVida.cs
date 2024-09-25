@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 namespace Jugador
 {
@@ -12,6 +14,7 @@ namespace Jugador
         public int saludMax = 100;
         public int saludActual;
         public JugadorMovimiento jugadorMov;
+        public Image barSaludJugador;
         
         private void Awake()
         {
@@ -30,6 +33,10 @@ namespace Jugador
             saludActual = saludMax;
         }
 
+        void Update(){
+            ActualizaSalud();
+        }
+
         public void TomarDaño(int cantidad)
         {
             saludActual -= cantidad;
@@ -44,14 +51,21 @@ namespace Jugador
             saludActual += cantidad;
             if (saludActual > saludMax)
             {
-                saludActual = saludMax; // No permitir que se pase de la salud máxima
+                saludActual = saludMax;
             }
         }
 
         void PerderJuego()
         {
             Debug.Log("Muere el jugador");
-            jugadorMov.animatorJugador.SetTrigger("Muerte");
+            jugadorMov.animatorJugador.SetTrigger("Muere");
+            Destroy(gameObject, 3f);
+        }
+
+        void ActualizaSalud()
+        {
+            float fillAmount = (float)saludActual / (float)saludMax;
+            barSaludJugador.fillAmount = fillAmount;
         }
 
     }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Enemigos;
 using UnityEngine;
 
 namespace Recolectables{
@@ -29,6 +30,7 @@ namespace Recolectables{
                 detono = true;
             }
         }
+
         public void Explosion()
         {
             GameObject explosionParticles = Instantiate(vfxExplosion, transform.position, vfxExplosion.transform.rotation);
@@ -37,9 +39,14 @@ namespace Recolectables{
             foreach(var rangeObjects in colliders) //Buscará en cada objeto si posee rigidbody
             {
                 AILobos lobos = rangeObjects.GetComponent<AILobos>();
+                Araña arañas = rangeObjects.GetComponent<Araña>();
                 if(lobos != null)
                 {
                     lobos.ImpactoExplosion();
+                }
+                if(arañas != null)
+                {
+                    arañas.MuerteAraña(1);
                 }
 
                 Rigidbody rb = rangeObjects.GetComponent<Rigidbody>();

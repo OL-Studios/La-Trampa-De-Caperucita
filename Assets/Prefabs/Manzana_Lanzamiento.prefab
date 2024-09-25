@@ -161,7 +161,7 @@ MonoBehaviour:
   rango: 5
   fuerzaExplocion: 30
   detono: 0
-  vfxExplosion: {fileID: 4425129568585013132, guid: bbeeb0ddc21369746aaaae5c5c1c09cf,
+  vfxExplosion: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312,
     type: 3}
 --- !u!136 &1238013468470804587
 CapsuleCollider:

@@ -8,6 +8,8 @@ TagManager:
   - Manzana
   - Bebida
   - Lobo
+  - Daga
+  - "Ara\xF1a"
   layers:
   - Default
   - TransparentFX

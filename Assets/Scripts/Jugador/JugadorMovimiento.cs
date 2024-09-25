@@ -19,11 +19,16 @@ namespace Jugador
         public float distanciaSuelo;
         public LayerMask mascaraSuelo;
         private bool enSuelo;
+        private bool estaRodando = false; // Bandera para saber si está rodando
        
         void Update()
         {
-            MovimientoJugador();
-            SaltoJugador();
+            if (!estaRodando)  // Solo permitir el movimiento si no está rodando
+            {
+                MovimientoJugador();
+                SaltoJugador();
+            }
+
             Rollito();
         }
 
@@ -46,10 +51,25 @@ namespace Jugador
 
         void Rollito()
         {
-            if (Input.GetKeyDown(KeyCode.LeftAlt))
+            if (Input.GetKeyDown(KeyCode.LeftAlt) && !estaRodando)
             {
-                animatorJugador.Play("Rollo");
+                animatorJugador.SetTrigger("rollo");
+                StartCoroutine(EsperarFinDeAnimacion("Rollo")); // Nombre del estado de animación "rollo"
             }
+        }
+
+        // Coroutine para bloquear el movimiento durante la animación del rollo
+        private IEnumerator EsperarFinDeAnimacion(string nombreAnimacion)
+        {
+            estaRodando = true;
+
+            // Esperar a que comience la animación
+            yield return new WaitUntil(() => animatorJugador.GetCurrentAnimatorStateInfo(0).IsName(nombreAnimacion));
+
+            // Esperar a que la animación termine
+            yield return new WaitWhile(() => animatorJugador.GetCurrentAnimatorStateInfo(0).IsName(nombreAnimacion));
+
+            estaRodando = false;  // Volver a habilitar el movimiento
         }
     }
 }

@@ -24,9 +24,6 @@ namespace Recolectables{
                 if(recolectable == TipoRecolectable.Manzana){
                     Debug.Log("Tomó Manzana");
                     jugador.cantManzanas++;
-                }else{
-                    Debug.Log("Tomó Bebida");
-                    jugador.cantBebida++;
                 }
                 Destroy(gameObject);
             }
