@@ -16620,11 +16620,11 @@ GameObject:
   - component: {fileID: 6167162527398717241}
   - component: {fileID: 661244295516113836}
   - component: {fileID: 847245170294792208}
-  - component: {fileID: 3849153653668310384}
+  - component: {fileID: 7136856586275908953}
   m_Layer: 0
   m_Name: "Ara\xF1a"
-  m_TagString: "Ara\xF1a"
-  m_Icon: {fileID: 0}
+  m_TagString: Enemigo
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -16760,7 +16760,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3849153653668310384
+--- !u!114 &7136856586275908953
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16769,22 +16769,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 7490163506224403590}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75d2149f2db100f4f9e372b10301a351, type: 3}
+  m_Script: {fileID: 11500000, guid: c4bd76bbdb298674f99d4bada5941889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1624474804874752765}
-  "saludActualAra\xF1a": 0
-  "saludMaxAra\xF1a": 30
-  quitaSaludJugador: 1
+  saludActulEnemigo: 0
+  saludMaxEnemigo: 30
+  quitaSaludJugador: 0.4
   rangoDeteccion: 5
   rangoAtaque: 1.1
   navMeshAgent: {fileID: 847245170294792208}
-  jugador: {fileID: 0}
   animator: {fileID: 4535141464685609438}
+  nombreAniMuerte: "Muerte_Ara\xF1a"
+  nombreAniReaccion: "Hit_Ara\xF1a"
   vfxVeneno: {fileID: 1508948403765031542}
   vfxMuerte: {fileID: 7187123128375805108}
-  "colliderAra\xF1a": {fileID: 661244295516113836}
-  "barSaludAra\xF1a": {fileID: 3771347161568443480}
+  colliderEnemigo: {fileID: 661244295516113836}
+  barSaludEnemigo: {fileID: 3771347161568443480}
+  enReaccion: 0
 --- !u!1 &8000107710262664469
 GameObject:
   m_ObjectHideFlags: 0

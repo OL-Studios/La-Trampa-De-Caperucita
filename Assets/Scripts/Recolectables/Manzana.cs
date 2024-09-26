@@ -23,7 +23,7 @@ namespace Recolectables{
         }
         void Update()
         {
-            cuentaRegresiva -= Time.deltaTime; // Conteo regresivo para la explosión de la granada
+            cuentaRegresiva -= Time.deltaTime; // Conteo regresivo para la explosión de la manzana
             if(cuentaRegresiva <= 0 && detono == false)
             {
                 Explosion();
@@ -38,15 +38,10 @@ namespace Recolectables{
             Collider[] colliders = Physics.OverlapSphere(transform.position, rango);
             foreach(var rangeObjects in colliders) //Buscará en cada objeto si posee rigidbody
             {
-                AILobos lobos = rangeObjects.GetComponent<AILobos>();
-                Araña arañas = rangeObjects.GetComponent<Araña>();
-                if(lobos != null)
+                EnemigosMenores enemigos = rangeObjects.GetComponent<EnemigosMenores>();
+                if(enemigos != null)
                 {
-                    lobos.ImpactoExplosion();
-                }
-                if(arañas != null)
-                {
-                    arañas.MuerteAraña(1);
+                    enemigos.MuerteEnemigo(1);
                 }
 
                 Rigidbody rb = rangeObjects.GetComponent<Rigidbody>();

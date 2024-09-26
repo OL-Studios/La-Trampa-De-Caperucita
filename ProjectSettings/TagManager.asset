@@ -6,10 +6,11 @@ TagManager:
   tags:
   - FxTemporaire
   - Manzana
-  - Bebida
   - Lobo
   - Daga
   - "Ara\xF1a"
+  - Enemigo
+  - Jefe
   layers:
   - Default
   - TransparentFX

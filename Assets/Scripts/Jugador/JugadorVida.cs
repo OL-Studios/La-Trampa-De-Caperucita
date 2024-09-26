@@ -11,8 +11,8 @@ namespace Jugador
         public static JugadorVida Instance { get; private set; }
 
         [Header ("Salud")]
-        public int saludMax = 100;
-        public int saludActual;
+        public float saludMax;
+        public float saludActual;
         public JugadorMovimiento jugadorMov;
         public Image barSaludJugador;
         
@@ -37,16 +37,16 @@ namespace Jugador
             ActualizaSalud();
         }
 
-        public void TomarDaño(int cantidad)
+        public void TomarDaño(float cantidad)
         {
             saludActual -= cantidad;
-            if (saludActual <= 0)
+            if (saludActual <= 0f)
             {
                 PerderJuego();
             }
         }
 
-        public void RecuperarVida(int cantidad)
+        public void RecuperarVida(float cantidad)
         {
             saludActual += cantidad;
             if (saludActual > saludMax)

@@ -1,18 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
-using Jugador;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using Jugador;
 
 namespace Enemigos{
-    public class Araña : MonoBehaviour
+    public class EnemigosMenores : MonoBehaviour
     {
         [Header("PERSONAJE")]
         public Rigidbody rb;
-        public int saludActualAraña;
-        public int saludMaxAraña;
-        public int quitaSaludJugador;
+        public int saludActulEnemigo;
+        public int saludMaxEnemigo;
+        public float quitaSaludJugador;
         public float rangoDeteccion;
         public float rangoAtaque;
 
@@ -21,20 +21,22 @@ namespace Enemigos{
 
         [Header("ANIMATIONS")]
         public Animator animator;
+        public string nombreAniMuerte;
+        public string nombreAniReaccion;
         public ParticleSystem vfxVeneno;
         public ParticleSystem vfxMuerte;
-        public SphereCollider colliderAraña;
-        public Image barSaludAraña;
+        public SphereCollider colliderEnemigo;
+        public Image barSaludEnemigo;
         public bool enReaccion = false;
 
         void Start(){
-            saludActualAraña = saludMaxAraña;
+            saludActulEnemigo = saludMaxEnemigo;
         }
         void Update()
         {
-            MuerteAraña(0);
+            MuerteEnemigo(0);
             AtaqueAJugador();
-            ActualizaSaludAraña();
+            ActualizaSaludEnemigo();
         }
 
         private void OnTriggerStay(Collider other)
@@ -56,15 +58,27 @@ namespace Enemigos{
 
         public void AtaqueAJugador()
         {
+            if (enReaccion)  // Si está en reacción, no hacer nada más
+            {
+                navMeshAgent.isStopped = true;  // Detener el movimiento mientras reacciona
+                return;
+            }
+
             float distanciaAlObjetivo = Vector3.Distance(transform.position, JugadorVida.Instance.PosicionJugador().position);      // Obtener la distancia al jugador
 
-            if (saludActualAraña > 0)
+            if (saludActulEnemigo > 0)
             { 
                 if (distanciaAlObjetivo <= rangoAtaque)
                 {
                     // Atacar al jugador
                     animator.SetBool("Corriendo", false);
                     animator.SetBool("Atacar", true);
+
+                    // Girar hacia el jugador antes de atacar
+                    Vector3 direccionHaciaJugador = JugadorVida.Instance.PosicionJugador().position - transform.position;
+                    direccionHaciaJugador.y = 0;  // Opcional: Asegura que el enemigo no gire en el eje Y si no es necesario
+                    Quaternion rotacionHaciaJugador = Quaternion.LookRotation(direccionHaciaJugador);
+                    transform.rotation = Quaternion.Slerp(transform.rotation, rotacionHaciaJugador, Time.deltaTime * 5f);  // Rotación suave
                 }
 
                 else if (distanciaAlObjetivo <= rangoDeteccion)
@@ -83,13 +97,12 @@ namespace Enemigos{
                     animator.SetBool("Corriendo", false);
                     animator.SetBool("Atacar", false);
                     navMeshAgent.isStopped = true;
-                    //animator.Play("Reposo_Araña");
                 }
             }
 
             else
             {
-                MuerteAraña(0);
+                MuerteEnemigo(0);
             }
         }
 
@@ -106,20 +119,20 @@ namespace Enemigos{
             navMeshAgent.isStopped = false;
         }
 
-        void ActualizaSaludAraña()
+        void ActualizaSaludEnemigo()
         {
-            float fillAmount = (float)saludActualAraña / (int)saludMaxAraña;
-            barSaludAraña.fillAmount = fillAmount;
+            float fillAmount = (float)saludActulEnemigo / (int)saludMaxEnemigo;
+            barSaludEnemigo.fillAmount = fillAmount;
         }
 
-        public void MuerteAraña(int caso)
+        public void MuerteEnemigo(int caso)
         {
             switch(caso){
                 case 0:
-                    if (saludActualAraña <= 0)
+                    if (saludActulEnemigo <= 0)
                     {
-                        animator.Play("MuerteAraña");
-                        colliderAraña.enabled = false;
+                        animator.Play(nombreAniMuerte);
+                        colliderEnemigo.enabled = false;
                         navMeshAgent.isStopped = true;
                         vfxMuerte.Play();
                         vfxVeneno.Stop();
@@ -128,8 +141,8 @@ namespace Enemigos{
                 break;
 
                 case 1:
-                    animator.Play("MuerteAraña");
-                    colliderAraña.enabled = false;
+                    animator.Play(nombreAniMuerte);
+                    colliderEnemigo.enabled = false;
                     navMeshAgent.isStopped = true;
                     Destroy(gameObject,2f);
                 break;

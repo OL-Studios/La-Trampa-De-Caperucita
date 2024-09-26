@@ -17,10 +17,10 @@ namespace Jugador {
         public Transform puntoSalidaManzana;
         public float fuerzaLanzamiento;
 
-        private Araña componenteAraña;
+        private EnemigosMenores componenteEnemigo;
 
         [Header ("Banderas")]
-        private bool enContactoAraña = false;
+        private bool enContactoEnemigo = false;
         private bool manzanaActiva = false;
         private bool efecto1Reproducido = false;
         private bool efecto2Reproducido = false;
@@ -45,14 +45,14 @@ namespace Jugador {
             ActivarManzanaBomba();
             LanzarManzana();
             ComprobarFrameYReproducirEfectos();
-            AtacandoAraña();
+            AtacandoEnemigos();
         }
 
         private void OnTriggerEnter(Collider other) {
-            if(other.CompareTag("Araña")){
-                enContactoAraña = true;
-                componenteAraña = other.GetComponent<Araña>();
-                Debug.Log("Daga en contacto con araña");
+            if(other.CompareTag("Enemigo")){
+                enContactoEnemigo = true;
+                componenteEnemigo = other.GetComponent<EnemigosMenores>();
+                Debug.Log("Daga en contacto con enemigo");
             }
         }
 
@@ -168,22 +168,22 @@ namespace Jugador {
             }
         #endregion
        
-        #region Ataque a Araña
-            void AtacandoAraña(){
+        #region Ataque a A Enemigos
+            void AtacandoEnemigos(){
                 AnimatorStateInfo estadoAnimacion = aniJugador.GetCurrentAnimatorStateInfo(0);
 
                 // Verificar si se está reproduciendo la animación "Ataque-1" o "Ataque-2"
                 if (estadoAnimacion.IsName("Ataque-1")){
-                    ProcesarAtaque(19, "Golpe a araña 1", cantAtaqueUno);
+                    ProcesarAtaque(19, "Golpe 1 a enemigo", cantAtaqueUno);
                 }
                 else if (estadoAnimacion.IsName("Ataque-2")){
-                    ProcesarAtaque(new int[] { 22, 34, 38 }, "Golpe a araña 2", cantAtaqueDos);
+                    ProcesarAtaque(new int[] { 22, 34, 38 }, "Golpe 2 a enemigo", cantAtaqueDos);
                 }
             }
 
             void ProcesarAtaque(int frameObjetivo, string mensajeGolpe, int daño){
                 int frameActual = CalcularFrameActual();
-                if (frameActual == frameObjetivo && enContactoAraña){
+                if (frameActual == frameObjetivo && enContactoEnemigo){
                     EjecutarGolpe(mensajeGolpe, daño);
                 }
             }
@@ -191,7 +191,7 @@ namespace Jugador {
             void ProcesarAtaque(int[] framesObjetivo, string mensajeGolpe, int daño){
                 int frameActual = CalcularFrameActual();
                 foreach (int frame in framesObjetivo){
-                    if (frameActual == frame && enContactoAraña){
+                    if (frameActual == frame && enContactoEnemigo){
                         EjecutarGolpe(mensajeGolpe, daño);
                         break;
                     }
@@ -204,12 +204,13 @@ namespace Jugador {
 
             void EjecutarGolpe(string mensaje, int daño){
                 Debug.Log(mensaje);
-                if (componenteAraña != null){
-                    componenteAraña.saludActualAraña -= daño;
+                if (componenteEnemigo != null){
+                    componenteEnemigo.saludActulEnemigo -= daño;
+                    componenteEnemigo.animator.Play(componenteEnemigo.nombreAniReaccion);
                 } else {
-                    Debug.LogError("Araña no encontrada en el objeto con el que se ha colisionado.");
+                    Debug.LogError("Enimgo no encontrado en el objeto con el que se ha colisionado.");
                 }
-                enContactoAraña = false;
+                enContactoEnemigo = false;
             }
         #endregion
     }
