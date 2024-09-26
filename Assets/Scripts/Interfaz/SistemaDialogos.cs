@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-namespace Interfaz
+namespace Assets.Scripts.Interfaz
 {
     public class SistemaDialogos : MonoBehaviour
     {   

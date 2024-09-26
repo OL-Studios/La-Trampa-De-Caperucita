@@ -68,5 +68,9 @@ namespace Jugador
             barSaludJugador.fillAmount = fillAmount;
         }
 
+        public Transform PosicionJugador()
+        {
+            return this.transform;
+        }
     }
 }

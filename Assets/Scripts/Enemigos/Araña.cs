@@ -19,14 +19,11 @@ namespace Enemigos{
         [Header("AI")]
         public NavMeshAgent navMeshAgent;
 
-        [Header("REFERENCES")]
-        public Transform jugador;
-
         [Header("ANIMATIONS")]
         public Animator animator;
         public ParticleSystem vfxVeneno;
         public ParticleSystem vfxMuerte;
-        public SkinnedMeshRenderer renderAraña;
+        public SphereCollider colliderAraña;
         public Image barSaludAraña;
 
         void Start(){
@@ -39,12 +36,12 @@ namespace Enemigos{
             ActualizaSaludAraña();
         }
 
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerStay(Collider other)
         {
             if (other.CompareTag("Player"))
             {
                 vfxVeneno.Play();
-                //JugadorVida.Instance.TomarDaño(quitaSaludJugador);
+                JugadorVida.Instance.TomarDaño(quitaSaludJugador);
             }
         }
 
@@ -58,7 +55,7 @@ namespace Enemigos{
 
         public void AtaqueAJugador()
         {
-            float distanciaAlObjetivo = Vector3.Distance(transform.position, jugador.position);      // Obtener la distancia al jugador
+            float distanciaAlObjetivo = Vector3.Distance(transform.position, JugadorVida.Instance.PosicionJugador().position);      // Obtener la distancia al jugador
 
             if (saludActualAraña > 0)
             { 
@@ -76,7 +73,7 @@ namespace Enemigos{
                     animator.SetBool("Atacar", false);
 
                     navMeshAgent.isStopped = false;
-                    navMeshAgent.SetDestination(jugador.position);
+                    navMeshAgent.SetDestination(JugadorVida.Instance.PosicionJugador().position);
                 }
 
                 else
@@ -85,7 +82,7 @@ namespace Enemigos{
                     animator.SetBool("Corriendo", false);
                     animator.SetBool("Atacar", false);
                     navMeshAgent.isStopped = true;
-                    animator.Play("Reposo_Araña");
+                    //animator.Play("Reposo_Araña");
                 }
             }
 
@@ -105,19 +102,22 @@ namespace Enemigos{
         {
             switch(caso){
                 case 0:
-                    if (saludActualAraña == 0)
+                    if (saludActualAraña <= 0)
                     {
+                        animator.Play("MuerteAraña");
+                        colliderAraña.enabled = false;
                         navMeshAgent.isStopped = true;
                         vfxMuerte.Play();
-                        renderAraña.enabled = false;
-                        animator.enabled = false;
                         vfxVeneno.Stop();
                         Destroy(gameObject, 4f);
                     }
                 break;
 
                 case 1:
-                    Destroy(gameObject, 2f);
+                    animator.Play("MuerteAraña");
+                    colliderAraña.enabled = false;
+                    navMeshAgent.isStopped = true;
+                    Destroy(gameObject,2f);
                 break;
             }
         }
