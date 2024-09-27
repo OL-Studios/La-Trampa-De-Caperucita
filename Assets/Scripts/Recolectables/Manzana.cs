@@ -44,6 +44,12 @@ namespace Recolectables{
                     enemigos.MuerteEnemigo(1);
                 }
 
+                LoboJefe loboJefe = rangeObjects.GetComponent<LoboJefe>();
+                if(loboJefe != null)
+                {
+                    loboJefe.saludActualJefe-=8;
+                }
+
                 Rigidbody rb = rangeObjects.GetComponent<Rigidbody>();
                 if(rb != null) //Si tiene rb, agregue la fuerza de explosión
                 {

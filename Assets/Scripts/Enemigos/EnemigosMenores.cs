@@ -10,7 +10,7 @@ namespace Enemigos{
     {
         [Header("PERSONAJE")]
         public Rigidbody rb;
-        public int saludActulEnemigo;
+        public int saludActualEnemigo;
         public int saludMaxEnemigo;
         public float quitaSaludJugador;
         public float rangoDeteccion;
@@ -30,7 +30,7 @@ namespace Enemigos{
         public bool enReaccion = false;
 
         void Start(){
-            saludActulEnemigo = saludMaxEnemigo;
+            saludActualEnemigo = saludMaxEnemigo;
         }
         void Update()
         {
@@ -66,7 +66,7 @@ namespace Enemigos{
 
             float distanciaAlObjetivo = Vector3.Distance(transform.position, JugadorVida.Instance.PosicionJugador().position);      // Obtener la distancia al jugador
 
-            if (saludActulEnemigo > 0)
+            if (saludActualEnemigo > 0)
             { 
                 if (distanciaAlObjetivo <= rangoAtaque)
                 {
@@ -121,7 +121,7 @@ namespace Enemigos{
 
         void ActualizaSaludEnemigo()
         {
-            float fillAmount = (float)saludActulEnemigo / (int)saludMaxEnemigo;
+            float fillAmount = (float)saludActualEnemigo / (int)saludMaxEnemigo;
             barSaludEnemigo.fillAmount = fillAmount;
         }
 
@@ -129,7 +129,7 @@ namespace Enemigos{
         {
             switch(caso){
                 case 0:
-                    if (saludActulEnemigo <= 0)
+                    if (saludActualEnemigo <= 0)
                     {
                         animator.Play(nombreAniMuerte);
                         colliderEnemigo.enabled = false;

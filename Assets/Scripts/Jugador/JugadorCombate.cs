@@ -18,6 +18,7 @@ namespace Jugador {
         public float fuerzaLanzamiento;
 
         private EnemigosMenores componenteEnemigo;
+        private LoboJefe componenteLobo;
 
         [Header ("Banderas")]
         private bool enContactoEnemigo = false;
@@ -37,6 +38,7 @@ namespace Jugador {
         public ParticleSystem vfxAtaqueUno;
         public ParticleSystem vfxAtaqueDos;
         public ParticleSystem vfxAtaqueTres;
+        public ParticleSystem vfxGolpe;
 
         void Update()
         {
@@ -53,6 +55,11 @@ namespace Jugador {
                 enContactoEnemigo = true;
                 componenteEnemigo = other.GetComponent<EnemigosMenores>();
                 Debug.Log("Daga en contacto con enemigo");
+            }
+            if(other.CompareTag("Jefe")){
+                enContactoEnemigo = true;
+                componenteLobo = other.GetComponent<LoboJefe>();
+                Debug.Log("Daga en contacto con Jefe");
             }
         }
 
@@ -175,9 +182,11 @@ namespace Jugador {
                 // Verificar si se está reproduciendo la animación "Ataque-1" o "Ataque-2"
                 if (estadoAnimacion.IsName("Ataque-1")){
                     ProcesarAtaque(19, "Golpe 1 a enemigo", cantAtaqueUno);
+                    //vfxGolpe.Stop();
                 }
                 else if (estadoAnimacion.IsName("Ataque-2")){
                     ProcesarAtaque(new int[] { 22, 34, 38 }, "Golpe 2 a enemigo", cantAtaqueDos);
+                    //vfxGolpe.Stop();
                 }
             }
 
@@ -205,10 +214,17 @@ namespace Jugador {
             void EjecutarGolpe(string mensaje, int daño){
                 Debug.Log(mensaje);
                 if (componenteEnemigo != null){
-                    componenteEnemigo.saludActulEnemigo -= daño;
+                    vfxGolpe.Play();
+                    componenteEnemigo.saludActualEnemigo -= daño;
                     componenteEnemigo.animator.Play(componenteEnemigo.nombreAniReaccion);
-                } else {
-                    Debug.LogError("Enimgo no encontrado en el objeto con el que se ha colisionado.");
+                } 
+                if(componenteLobo !=null){
+                    vfxGolpe.Play();
+                    componenteLobo.saludActualJefe-= daño;
+                    componenteLobo.aniJefe.Play("Reaccion_Jefe");
+                }
+                else {
+                    Debug.LogError("Enemigo no encontrado en el objeto con el que se ha colisionado.");
                 }
                 enContactoEnemigo = false;
             }
