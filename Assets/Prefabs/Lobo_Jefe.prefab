@@ -1,0 +1,2467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &753241731749218143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3512785912416268757}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3512785912416268757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753241731749218143}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.028779708, y: 0.100615785, z: 0.26473022, w: 0.9586272}
+  m_LocalPosition: {x: -0.5048305, y: 0, z: 0.00000015258789}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1301947120613631564}
+  m_Father: {fileID: 7790321494537329771}
+  m_LocalEulerAnglesHint: {x: 3.627337, y: 10.0511, z: 39.599598}
+--- !u!1 &830490978400674609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 628600860668446091}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &628600860668446091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830490978400674609}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000017231025, y: 0.0000000102736335, z: -0.15648967,
+    w: 0.9876796}
+  m_LocalPosition: {x: -0.16102356, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7039896239498372212}
+  m_Father: {fileID: 7150844980992164010}
+  m_LocalEulerAnglesHint: {x: -0.00000084301, y: -0.00000044776814, z: -35.45977}
+--- !u!1 &1288742896838576600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352643415116762654}
+  - component: {fileID: 8966611646963944021}
+  m_Layer: 0
+  m_Name: WEREWOLF_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352643415116762654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288742896838576600}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0048875883, y: -0.0048866873, z: 0.70709026, w: 0.7070896}
+  m_LocalPosition: {x: -0, y: 0.445, z: 1.593}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2276289721025120501}
+  m_Father: {fileID: 564971275944407792}
+  m_LocalEulerAnglesHint: {x: 33.248028, y: 0.00011025588, z: 90.00005}
+--- !u!65 &8966611646963944021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288742896838576600}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.306801, y: 1, z: 1.8079252}
+  m_Center: {x: -0.1534005, y: 0.000000107170216, z: 0.40396303}
+--- !u!1 &1577555754571086736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8449793597523211313}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8449793597523211313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577555754571086736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0044058417, y: 0.031141635, z: -0.14001393, w: 0.9896499}
+  m_LocalPosition: {x: -0.17433868, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4710574915825400523}
+  m_Father: {fileID: 5896066788050220549}
+  m_LocalEulerAnglesHint: {x: -3.6745865, y: -6.6019278, z: -26.410872}
+--- !u!1 &1594719545016485534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2276289721025120501}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2276289721025120501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594719545016485534}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7470849542481568499}
+  - {fileID: 917527053952041997}
+  - {fileID: 5004761518674898820}
+  - {fileID: 5717086085717980076}
+  m_Father: {fileID: 1352643415116762654}
+  m_LocalEulerAnglesHint: {x: -90, y: 95.38959, z: 0}
+--- !u!1 &1843080924536347384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5935669502901943826}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5935669502901943826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843080924536347384}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.02877971, y: -0.10061574, z: 0.26473022, w: 0.9586272}
+  m_LocalPosition: {x: -0.50483036, y: 0.00000015258789, z: 0.00000015258789}
+  m_LocalScale: {x: 0.99999976, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8253958158120838427}
+  m_Father: {fileID: 546154827090754571}
+  m_LocalEulerAnglesHint: {x: -3.6273277, y: -10.050993, z: 39.59965}
+--- !u!1 &1962321856591832092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7228443402379917306}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7228443402379917306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962321856591832092}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000033274798, y: 0.0000000017351229, z: 0.49318367, w: 0.8699252}
+  m_LocalPosition: {x: -0.811687, y: -0.000000038146972, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1650297420397698243}
+  m_Father: {fileID: 7470849542481568499}
+  m_LocalEulerAnglesHint: {x: -0.00000012681822, y: -0.0000025581796, z: 87.161964}
+--- !u!1 &2266472183304831215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6532660278447034422}
+  - component: {fileID: 6478994360109897697}
+  - component: {fileID: 573084051132367424}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6532660278447034422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2266472183304831215}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5982918, y: 0.017979544, z: 0.013452451, w: 0.8009636}
+  m_LocalPosition: {x: -1.0334765, y: -0.000000114440915, z: 0.00000015258789}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2908046114687458817}
+  - {fileID: 3799517155646913832}
+  - {fileID: 3576833684083271069}
+  - {fileID: 3094018410104434877}
+  m_Father: {fileID: 1301947120613631564}
+  m_LocalEulerAnglesHint: {x: 68.91633, y: -44.696117, z: -72.61562}
+--- !u!135 &6478994360109897697
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2266472183304831215}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.35772523
+  m_Center: {x: -0.49038312, y: 0.10836421, z: 0.105938815}
+--- !u!114 &573084051132367424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2266472183304831215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49745b890f929f549afd3d2b0198b544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quitaSaludJugador: 4
+  aniJefe: {fileID: 6851696355813479086}
+  enContactoJugador: 0
+  frameAtaque: 14
+--- !u!1 &2277529594082155324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 779719029878691728}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &779719029878691728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277529594082155324}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000015226678, y: 0.000000015841437, z: -0.25992623,
+    w: 0.9656285}
+  m_LocalPosition: {x: -0.16396628, y: 0.000000076293944, z: 0.00000030517577}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9116419853824956617}
+  m_LocalEulerAnglesHint: {x: -0.0000037192365, y: -0.0000035226026, z: -46.555317}
+--- !u!1 &2478243250206743125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 103391865473333062}
+  - component: {fileID: 1711029475849939758}
+  - component: {fileID: 6324269379924268295}
+  m_Layer: 0
+  m_Name: SK_Werewolf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &103391865473333062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478243250206743125}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 1.707865, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5052434858796392838}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1711029475849939758
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478243250206743125}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c8d98b50e2e324e4b96e1cef118263c7, type: 2}
+  - {fileID: 2100000, guid: d54c1b143a350294b993d30101b90308, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 93f2a5184ecdd5f4ca0ff6e37aabad3c, type: 3}
+  m_Bones:
+  - {fileID: 7684068840918111722}
+  - {fileID: 2392455493388432555}
+  - {fileID: 4028721227832538747}
+  - {fileID: 3666066360837570317}
+  - {fileID: 5717086085717980076}
+  - {fileID: 7091801384752719183}
+  - {fileID: 5004761518674898820}
+  - {fileID: 3512785912416268757}
+  - {fileID: 3040961576450038038}
+  - {fileID: 917527053952041997}
+  - {fileID: 1681694428686785830}
+  - {fileID: 6532660278447034422}
+  - {fileID: 1301947120613631564}
+  - {fileID: 4570296180775229135}
+  - {fileID: 1900803118381970475}
+  - {fileID: 6800036064991840619}
+  - {fileID: 2305248880615056209}
+  - {fileID: 2477535586130404129}
+  - {fileID: 8278132149674971504}
+  - {fileID: 302475946660748950}
+  - {fileID: 3284324440380996133}
+  - {fileID: 4364447666187744268}
+  - {fileID: 3159598422347349005}
+  - {fileID: 546154827090754571}
+  - {fileID: 7790321494537329771}
+  - {fileID: 5935669502901943826}
+  - {fileID: 2276289721025120501}
+  - {fileID: 8253958158120838427}
+  - {fileID: 7470849542481568499}
+  - {fileID: 2158914978052488483}
+  - {fileID: 7228443402379917306}
+  - {fileID: 5896066788050220549}
+  - {fileID: 8449793597523211313}
+  - {fileID: 4710574915825400523}
+  - {fileID: 7517489686300604393}
+  - {fileID: 8566254819988326639}
+  - {fileID: 8631176932854615007}
+  - {fileID: 5721121957101800872}
+  - {fileID: 1877883055538861901}
+  - {fileID: 3991288547048881216}
+  - {fileID: 7039896239498372212}
+  - {fileID: 7150844980992164010}
+  - {fileID: 628600860668446091}
+  - {fileID: 1650297420397698243}
+  - {fileID: 4070606756926556879}
+  - {fileID: 1370973812085219894}
+  - {fileID: 6935080391556044383}
+  - {fileID: 9116419853824956617}
+  - {fileID: 779719029878691728}
+  - {fileID: 2908046114687458817}
+  - {fileID: 3799517155646913832}
+  - {fileID: 3576833684083271069}
+  - {fileID: 3094018410104434877}
+  - {fileID: 5072172638792344009}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2276289721025120501}
+  m_AABB:
+    m_Center: {x: -0.04158652, y: 0.3205915, z: -0.0000017881393}
+    m_Extent: {x: 2.170765, y: 1.9486313, z: 2.2800307}
+  m_DirtyAABB: 0
+--- !u!64 &6324269379924268295
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478243250206743125}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!1 &2501115560496222427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3576833684083271069}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3576833684083271069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501115560496222427}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0007623704, y: 0.02235625, z: -0.016288197, w: 0.9996171}
+  m_LocalPosition: {x: -0.44330558, y: -0.027766112, z: -0.0099932095}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2477535586130404129}
+  m_Father: {fileID: 6532660278447034422}
+  m_LocalEulerAnglesHint: {x: 0.12905698, y: 2.5602934, z: -2.623915}
+--- !u!1 &2921610512051916965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4028721227832538747}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Tail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4028721227832538747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2921610512051916965}
+  serializedVersion: 2
+  m_LocalRotation: {x: 7.388196e-14, y: 0.000000018531937, z: -0.006681547, w: 0.9999777}
+  m_LocalPosition: {x: -0.36638767, y: -0.00027648924, z: -7.67759e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2392455493388432555}
+  m_Father: {fileID: 3666066360837570317}
+  m_LocalEulerAnglesHint: {x: -2.9737213, y: 9.47474, z: 15.971842}
+--- !u!1 &3019276171795158448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3040961576450038038}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3040961576450038038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3019276171795158448}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000060915486, y: 0.00000012199536, z: -0.70710695, w: 0.70710665}
+  m_LocalPosition: {x: -0.1712664, y: 0.2876919, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4570296180775229135}
+  m_LocalEulerAnglesHint: {x: 0.00006450822, y: -0.000054641576, z: -90.000046}
+--- !u!1 &3145072056974975755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1301947120613631564}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1301947120613631564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3145072056974975755}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000035658037, y: 0.0000000500326, z: 0.36554417, w: 0.930794}
+  m_LocalPosition: {x: -1.0081489, y: 0, z: -0.00000015258789}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6532660278447034422}
+  m_Father: {fileID: 3512785912416268757}
+  m_LocalEulerAnglesHint: {x: 0.000003480723, y: -0.00000052570044, z: 67.375175}
+--- !u!1 &3172292367138573975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2305248880615056209}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2305248880615056209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3172292367138573975}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000055817058, y: -0.00000001666209, z: -0.23318787, w: 0.9724317}
+  m_LocalPosition: {x: -0.13485412, y: 0, z: -0.00000015258789}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2477535586130404129}
+  m_LocalEulerAnglesHint: {x: 0.00000093254965, y: 0.00000020374856, z: -51.110325}
+--- !u!1 &3174912288886705103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3666066360837570317}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Tail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3666066360837570317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3174912288886705103}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.8902194e-14, y: -0.0000000018904986, z: 0.00068156427, w: 0.99999976}
+  m_LocalPosition: {x: -0.22231601, y: -0.00029190062, z: -8.0966855e-10}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4028721227832538747}
+  m_Father: {fileID: 5717086085717980076}
+  m_LocalEulerAnglesHint: {x: -0.8332963, y: 1.8584512, z: 26.175499}
+--- !u!1 &3458410784429691348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6800036064991840619}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6800036064991840619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3458410784429691348}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000037267004, y: -0.000000026649326, z: -0.15648963, w: 0.9876796}
+  m_LocalPosition: {x: -0.16102363, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1900803118381970475}
+  m_Father: {fileID: 3094018410104434877}
+  m_LocalEulerAnglesHint: {x: 0.0000004953008, y: 0.00000069541824, z: -35.45977}
+--- !u!1 &3957652704073035794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5004761518674898820}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5004761518674898820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3957652704073035794}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000002143647, y: 0.0000007651951, z: -0.109560356, w: 0.99398017}
+  m_LocalPosition: {x: -0.26862046, y: -0.0004725647, z: 0.00000037317832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7091801384752719183}
+  m_Father: {fileID: 2276289721025120501}
+  m_LocalEulerAnglesHint: {x: -0.0002253076, y: 0.00014256079, z: -23.396074}
+--- !u!1 &4153071916599151139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3284324440380996133}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Queue de cheval 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3284324440380996133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153071916599151139}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000003393855, y: 0.000002015542, z: -0.75144655, w: 0.65979403}
+  m_LocalPosition: {x: 0.06683075, y: 0.016594239, z: 0.000002176835}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7684068840918111722}
+  m_LocalEulerAnglesHint: {x: 0.00015745887, y: 0.0001579375, z: -88.09594}
+--- !u!1 &4183419929478828386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3094018410104434877}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3094018410104434877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4183419929478828386}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.018335588, y: -0.0783947, z: -0.016621405, w: 0.99661523}
+  m_LocalPosition: {x: -0.38086134, y: -0.021812744, z: -0.1303183}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6800036064991840619}
+  m_Father: {fileID: 6532660278447034422}
+  m_LocalEulerAnglesHint: {x: -4.5704103, y: -11.893135, z: -2.8819559}
+--- !u!1 &4190713959090798521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1650297420397698243}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L HorseLink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1650297420397698243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4190713959090798521}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000030015233, y: -0.0000000010685504, z: -0.4649347,
+    w: 0.885345}
+  m_LocalPosition: {x: -0.4862517, y: 0, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4070606756926556879}
+  m_Father: {fileID: 7228443402379917306}
+  m_LocalEulerAnglesHint: {x: 0.0000038433946, y: -0.0000003324899, z: -67.2273}
+--- !u!1 &4285711506994319394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1900803118381970475}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1900803118381970475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4285711506994319394}
+  serializedVersion: 2
+  m_LocalRotation: {x: 2.0030554e-10, y: -0.000000015159511, z: -0.17128672, w: 0.98522127}
+  m_LocalPosition: {x: -0.10482223, y: 0.00000015258789, z: 0.00000015258789}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6800036064991840619}
+  m_LocalEulerAnglesHint: {x: 0.00000074847304, y: -0.00000017900572, z: -69.76023}
+--- !u!1 &4340580869432423137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4710574915825400523}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4710574915825400523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4340580869432423137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000026355991, y: 0.000000008337107, z: -0.25992617, w: 0.9656285}
+  m_LocalPosition: {x: -0.16396637, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8449793597523211313}
+  m_LocalEulerAnglesHint: {x: -0.0000005871004, y: 0.00000061987384, z: -46.555317}
+--- !u!1 &4376609447110687083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5072172638792344009}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5072172638792344009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376609447110687083}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000012095335, y: -0.00000002398641, z: 0.49318367, w: 0.86992526}
+  m_LocalPosition: {x: -0.8116868, y: -0.000000038146972, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1681694428686785830}
+  m_Father: {fileID: 917527053952041997}
+  m_LocalEulerAnglesHint: {x: 0.000000042284125, y: 0.0000008527258, z: 87.16113}
+--- !u!1 &4434967147818050678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4570296180775229135}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4570296180775229135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4434967147818050678}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.026191061, y: -0.03939702, z: 0.22223273, w: 0.97384524}
+  m_LocalPosition: {x: -0.42261207, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3040961576450038038}
+  m_Father: {fileID: 1681694428686785830}
+  m_LocalEulerAnglesHint: {x: 9.619125, y: -10.866062, z: 0.681371}
+--- !u!1 &4612373978885179761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1370973812085219894}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1370973812085219894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4612373978885179761}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000010207471, y: -0.000000136648, z: -0.70710695, w: 0.70710665}
+  m_LocalPosition: {x: -0.1712664, y: 0.2876918, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4070606756926556879}
+  m_LocalEulerAnglesHint: {x: -0.00009193246, y: -0.000038419683, z: -90.00008}
+--- !u!1 &4675764282151560954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7790321494537329771}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7790321494537329771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4675764282151560954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5772602, y: 0.04194409, z: 0.81495845, w: 0.0292243}
+  m_LocalPosition: {x: -0.6031952, y: 0.00000030517577, z: -0.11949693}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3512785912416268757}
+  m_Father: {fileID: 7091801384752719183}
+  m_LocalEulerAnglesHint: {x: 0.42336786, y: 82.08189, z: -176.62877}
+--- !u!1 &4732052138699777868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8566254819988326639}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8566254819988326639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4732052138699777868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000032519463, y: 0.000000006957402, z: -0.19107498, w: 0.9815755}
+  m_LocalPosition: {x: -0.1308461, y: 0.00000030517577, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8631176932854615007}
+  m_LocalEulerAnglesHint: {x: 0.0000009467241, y: 0.0000022215195, z: -68.081795}
+--- !u!1 &4999824951547786619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7039896239498372212}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7039896239498372212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4999824951547786619}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000009175589, y: 0.0000000015952317, z: -0.17128669,
+    w: 0.98522127}
+  m_LocalPosition: {x: -0.10482216, y: 0.00000030517577, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 628600860668446091}
+  m_LocalEulerAnglesHint: {x: -0.00000020026397, y: -0.000000073840454, z: -69.76023}
+--- !u!1 &5216697659019653273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1877883055538861901}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1877883055538861901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5216697659019653273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000013131889, y: -0.0000000031490093, z: -0.23318781,
+    w: 0.9724317}
+  m_LocalPosition: {x: -0.13485427, y: 0.00000015258789, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3991288547048881216}
+  m_LocalEulerAnglesHint: {x: -0.0000003322698, y: -0.00000026800925, z: -51.110325}
+--- !u!1 &5399692065605953598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 917527053952041997}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917527053952041997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5399692065605953598}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.23230705, y: 0.9563208, z: -0.04243898, w: -0.17228729}
+  m_LocalPosition: {x: -0.00000045776366, y: -0.00000030517577, z: -0.26633814}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5072172638792344009}
+  m_Father: {fileID: 2276289721025120501}
+  m_LocalEulerAnglesHint: {x: 18.44088, y: -170.97983, z: -44.11157}
+--- !u!1 &5467141411959580464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 302475946660748950}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &302475946660748950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5467141411959580464}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000036555807, y: 7.173004e-10, z: -0.19254884, w: 0.9812874}
+  m_LocalPosition: {x: -0.16901061, y: 0, z: 0.00000015258789}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8278132149674971504}
+  m_Father: {fileID: 3799517155646913832}
+  m_LocalEulerAnglesHint: {x: -0.00000007531517, y: -0.0000018221058, z: -71.810875}
+--- !u!1 &5589569125442788190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5896066788050220549}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5896066788050220549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5589569125442788190}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6560444, y: -0.54079616, z: 0.10501156, w: 0.5158661}
+  m_LocalPosition: {x: -0.179207, y: 0.057872314, z: -0.17778732}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8449793597523211313}
+  m_Father: {fileID: 2158914978052488483}
+  m_LocalEulerAnglesHint: {x: 39.53217, y: -139.8586, z: -103.85557}
+--- !u!1 &5658891001252107975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2158914978052488483}
+  - component: {fileID: 7081920138262189368}
+  - component: {fileID: 3826850510111959142}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2158914978052488483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5658891001252107975}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.59829193, y: -0.01797955, z: 0.013452429, w: 0.8009636}
+  m_LocalPosition: {x: -1.0334764, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5896066788050220549}
+  - {fileID: 7517489686300604393}
+  - {fileID: 5721121957101800872}
+  - {fileID: 7150844980992164010}
+  m_Father: {fileID: 8253958158120838427}
+  m_LocalEulerAnglesHint: {x: -68.91621, y: 44.69718, z: -72.616745}
+--- !u!135 &7081920138262189368
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5658891001252107975}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.37616065
+  m_Center: {x: -0.49038345, y: 0.108364165, z: -0.11532784}
+--- !u!114 &3826850510111959142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5658891001252107975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49745b890f929f549afd3d2b0198b544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quitaSaludJugador: 4
+  aniJefe: {fileID: 6851696355813479086}
+  enContactoJugador: 0
+  frameAtaque: 30
+--- !u!1 &6006330241025347351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8631176932854615007}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8631176932854615007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006330241025347351}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000014346007, y: -0.0000000073111615, z: -0.19254883,
+    w: 0.9812874}
+  m_LocalPosition: {x: -0.16901061, y: 0.00000015258789, z: 0.00000015258789}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8566254819988326639}
+  m_Father: {fileID: 7517489686300604393}
+  m_LocalEulerAnglesHint: {x: 0.0000010023058, y: -0.0000023667078, z: -71.810875}
+--- !u!1 &6319425341816523529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7684068840918111722}
+  - component: {fileID: 5994511378184542778}
+  - component: {fileID: 7077002127234935641}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7684068840918111722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6319425341816523529}
+  serializedVersion: 2
+  m_LocalRotation: {x: -7.7265624e-13, y: -0.0000011167278, z: 0.4026282, w: 0.9153636}
+  m_LocalPosition: {x: -0.27267408, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3284324440380996133}
+  m_Father: {fileID: 4364447666187744268}
+  m_LocalEulerAnglesHint: {x: 0.00005504022, y: -0.00012026669, z: 49.182625}
+--- !u!65 &5994511378184542778
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6319425341816523529}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.647093, y: 1.5115123, z: 1}
+  m_Center: {x: 0.4134938, y: -0.105237514, z: 0.00000019842794}
+--- !u!135 &7077002127234935641
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6319425341816523529}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6638154363732769725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3799517155646913832}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3799517155646913832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638154363732769725}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.017464036, y: 0.08894649, z: 0.0144134825, w: 0.995779}
+  m_LocalPosition: {x: -0.42141363, y: -0.025492094, z: 0.15298103}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 302475946660748950}
+  m_Father: {fileID: 6532660278447034422}
+  m_LocalEulerAnglesHint: {x: 3.6548412, y: 10.074359, z: 1.9498385}
+--- !u!1 &6938596762953015713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3159598422347349005}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3159598422347349005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6938596762953015713}
+  serializedVersion: 2
+  m_LocalRotation: {x: -4.9085017e-14, y: 0.0000006413862, z: -0.23124684, w: 0.97289515}
+  m_LocalPosition: {x: -0.6032925, y: -0.00019393921, z: -5.381298e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4364447666187744268}
+  m_Father: {fileID: 7091801384752719183}
+  m_LocalEulerAnglesHint: {x: 0.000015327869, y: 0.00006809355, z: -25.371696}
+--- !u!1 &7051757784337966897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2392455493388432555}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Tail3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2392455493388432555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7051757784337966897}
+  serializedVersion: 2
+  m_LocalRotation: {x: 2.0134771e-14, y: 0.000000018532278, z: -0.006681592, w: 0.9999777}
+  m_LocalPosition: {x: -0.3474259, y: -0.00034072876, z: -9.447103e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6935080391556044383}
+  m_Father: {fileID: 4028721227832538747}
+  m_LocalEulerAnglesHint: {x: 3.5050585, y: 9.116439, z: -22.551388}
+--- !u!1 &7246651046775130469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5052434858796392838}
+  - component: {fileID: 6851696355813479086}
+  - component: {fileID: 970864970004264115}
+  - component: {fileID: 3633499837364433048}
+  - component: {fileID: 2130864864952379811}
+  - component: {fileID: 6856380793773614669}
+  - component: {fileID: 6224123239794866562}
+  m_Layer: 0
+  m_Name: Lobo_Jefe
+  m_TagString: Jefe
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5052434858796392838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.02, y: 0, z: 17.45}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 564971275944407792}
+  - {fileID: 103391865473333062}
+  - {fileID: 870719760825030086}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6851696355813479086
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 93f2a5184ecdd5f4ca0ff6e37aabad3c, type: 3}
+  m_Controller: {fileID: 9100000, guid: b3fd01d641fc0454b9114444d2c4f923, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!54 &970864970004264115
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  serializedVersion: 4
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &3633499837364433048
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.4851451
+  m_Height: 1.3894905
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.7457077, z: -0.3057351}
+--- !u!195 &2130864864952379811
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 10
+  m_Acceleration: 6
+  avoidancePriority: 50
+  m_AngularSpeed: 1000
+  m_StoppingDistance: 2.2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &6856380793773614669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e53fb4dece017b40858efe4d889f5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rbJefe: {fileID: 970864970004264115}
+  saludActualJefe: 0
+  saludMaxJefe: 100
+  rangoDeteccionAJugador: 7
+  rangoAtaqueAJugador: 3
+  navMeshJefe: {fileID: 2130864864952379811}
+  aniJefe: {fileID: 6851696355813479086}
+  vfxAtaque: {fileID: 0}
+  vfxMuerteJefe: {fileID: 0}
+  colliderJefe: {fileID: 5994511378184542778}
+  barSaludJefe: {fileID: 0}
+  enReaccionGolpe: 0
+  impulseSource: {fileID: 6224123239794866562}
+--- !u!114 &6224123239794866562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_ImpulseShape: 4
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.4
+    m_ImpulseType: 1
+    m_DissipationRate: 0.5
+    m_RawSignal: {fileID: 0}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 10
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 1, y: 1, z: 1}
+--- !u!1 &7273052990132476309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7150844980992164010}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7150844980992164010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273052990132476309}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.018335572, y: 0.078394696, z: -0.01662139, w: 0.99661523}
+  m_LocalPosition: {x: -0.38086134, y: -0.021812744, z: 0.13031822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 628600860668446091}
+  m_Father: {fileID: 2158914978052488483}
+  m_LocalEulerAnglesHint: {x: 4.5704093, y: 11.893135, z: -2.8819559}
+--- !u!1 &7285819510122219603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4070606756926556879}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4070606756926556879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7285819510122219603}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.026191007, y: 0.039396998, z: 0.22223273, w: 0.97384524}
+  m_LocalPosition: {x: -0.42261207, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1370973812085219894}
+  m_Father: {fileID: 1650297420397698243}
+  m_LocalEulerAnglesHint: {x: -9.624295, y: 10.865349, z: 0.6812818}
+--- !u!1 &7350344142878434159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8253958158120838427}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8253958158120838427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7350344142878434159}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000028723083, y: -0.00000005275612, z: 0.36554417, w: 0.930794}
+  m_LocalPosition: {x: -1.0081489, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2158914978052488483}
+  m_Father: {fileID: 5935669502901943826}
+  m_LocalEulerAnglesHint: {x: 1.95424e-13, y: -4.7470665e-13, z: 67.37566}
+--- !u!1 &7471261491766941208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2477535586130404129}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2477535586130404129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7471261491766941208}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000049508486, y: -0.0000000045378314, z: -0.15328892,
+    w: 0.9881815}
+  m_LocalPosition: {x: -0.15945274, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2305248880615056209}
+  m_Father: {fileID: 3576833684083271069}
+  m_LocalEulerAnglesHint: {x: -0.00000015950903, y: 0.0000017076011, z: -79.30759}
+--- !u!1 &7700682879325066964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4364447666187744268}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Neck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4364447666187744268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7700682879325066964}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.2533476e-13, y: 0.00000035603014, z: -0.12836392, w: 0.9917272}
+  m_LocalPosition: {x: -0.27272934, y: -0.00021011352, z: -5.820766e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7684068840918111722}
+  m_Father: {fileID: 3159598422347349005}
+  m_LocalEulerAnglesHint: {x: 0.0000043140412, y: 0.000036776626, z: -13.380831}
+--- !u!1 &7763101374973324785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8278132149674971504}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8278132149674971504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7763101374973324785}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000069085995, y: 0.0000000062455934, z: -0.19107495,
+    w: 0.9815755}
+  m_LocalPosition: {x: -0.13084617, y: 0, z: -0.00000030517577}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 302475946660748950}
+  m_LocalEulerAnglesHint: {x: 0.00000031869882, y: -0.00000079206035, z: -68.081795}
+--- !u!1 &7805872586937820291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5721121957101800872}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5721121957101800872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7805872586937820291}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0007623943, y: -0.022356266, z: -0.016288167, w: 0.9996171}
+  m_LocalPosition: {x: -0.44330558, y: -0.027766112, z: 0.009993057}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3991288547048881216}
+  m_Father: {fileID: 2158914978052488483}
+  m_LocalEulerAnglesHint: {x: -0.12905723, y: -2.5602942, z: -2.6239157}
+--- !u!1 &7814418260220048645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1681694428686785830}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R HorseLink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1681694428686785830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814418260220048645}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000069280666, y: -0.000000013192667, z: -0.4649347,
+    w: 0.885345}
+  m_LocalPosition: {x: -0.48625183, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4570296180775229135}
+  m_Father: {fileID: 5072172638792344009}
+  m_LocalEulerAnglesHint: {x: -0.0000002014008, y: 0.0000004797035, z: -67.225136}
+--- !u!1 &8057482701061059483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7091801384752719183}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7091801384752719183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057482701061059483}
+  serializedVersion: 2
+  m_LocalRotation: {x: 3.6396697e-14, y: 0.0000003810595, z: -0.13738804, w: 0.9905173}
+  m_LocalPosition: {x: -0.608293, y: -0.0004621887, z: -0.0000000012820237}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 546154827090754571}
+  - {fileID: 3159598422347349005}
+  - {fileID: 7790321494537329771}
+  m_Father: {fileID: 5004761518674898820}
+  m_LocalEulerAnglesHint: {x: 0.000010774785, y: 0.000057519213, z: -21.21989}
+--- !u!1 &8291388117732707778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 546154827090754571}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &546154827090754571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291388117732707778}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5772601, y: -0.041946363, z: 0.8149584, w: 0.02922588}
+  m_LocalPosition: {x: -0.6031949, y: -0.00000030517577, z: 0.11949693}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5935669502901943826}
+  m_Father: {fileID: 7091801384752719183}
+  m_LocalEulerAnglesHint: {x: -0.42332348, y: -82.08189, z: -176.62907}
+--- !u!1 &8351369219784117169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 564971275944407792}
+  m_Layer: 0
+  m_Name: root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &564971275944407792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8351369219784117169}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1352643415116762654}
+  m_Father: {fileID: 5052434858796392838}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &8539384200721968033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6935080391556044383}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Tail4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6935080391556044383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8539384200721968033}
+  serializedVersion: 2
+  m_LocalRotation: {x: -9.616197e-14, y: 0.00000001853205, z: -0.006681532, w: 0.9999777}
+  m_LocalPosition: {x: -0.42792755, y: -0.00030059813, z: -8.335337e-10}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2392455493388432555}
+  m_LocalEulerAnglesHint: {x: -2.0490184, y: -4.0867605, z: -21.516903}
+--- !u!1 &8598608454800623297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2908046114687458817}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2908046114687458817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598608454800623297}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.6560444, y: 0.54079616, z: 0.105011486, w: 0.5158661}
+  m_LocalPosition: {x: -0.179207, y: 0.057872314, z: 0.17778732}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9116419853824956617}
+  m_Father: {fileID: 6532660278447034422}
+  m_LocalEulerAnglesHint: {x: -39.532158, y: 139.85858, z: -103.85556}
+--- !u!1 &8623906234392033680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5717086085717980076}
+  m_Layer: 0
+  m_Name: WEREWOLF_ Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5717086085717980076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623906234392033680}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000076481285, y: -0.0000004688702, z: 0.95913595, w: 0.28294578}
+  m_LocalPosition: {x: 0.045330353, y: -0.35218838, z: -0.00000046576488}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3666066360837570317}
+  m_Father: {fileID: 2276289721025120501}
+  m_LocalEulerAnglesHint: {x: -0.49816704, y: -1.9751714, z: 167.8433}
+--- !u!1 &8759384975038926816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7470849542481568499}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7470849542481568499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8759384975038926816}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2323073, y: 0.9563211, z: 0.042438053, w: 0.17228548}
+  m_LocalPosition: {x: 0.00000030517577, y: 0.00000045776366, z: 0.26633808}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7228443402379917306}
+  m_Father: {fileID: 2276289721025120501}
+  m_LocalEulerAnglesHint: {x: -18.435738, y: 170.97859, z: -44.110676}
+--- !u!1 &8898927103448221113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7517489686300604393}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7517489686300604393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8898927103448221113}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.017464034, y: -0.0889465, z: 0.014413496, w: 0.995779}
+  m_LocalPosition: {x: -0.42141363, y: -0.025492094, z: -0.1529811}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8631176932854615007}
+  m_Father: {fileID: 2158914978052488483}
+  m_LocalEulerAnglesHint: {x: -3.6548405, y: -10.074358, z: 1.9498382}
+--- !u!1 &8953214421594332563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9116419853824956617}
+  m_Layer: 0
+  m_Name: WEREWOLF_ R Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9116419853824956617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8953214421594332563}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0044058366, y: -0.031141598, z: -0.14001395, w: 0.9896499}
+  m_LocalPosition: {x: -0.17433883, y: -0.000000076293944, z: 0.00000015258789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 779719029878691728}
+  m_Father: {fileID: 2908046114687458817}
+  m_LocalEulerAnglesHint: {x: 3.6745827, y: 6.6019306, z: -26.41087}
+--- !u!1 &9015052288187027990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3991288547048881216}
+  m_Layer: 0
+  m_Name: WEREWOLF_ L Finger21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3991288547048881216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015052288187027990}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000027736965, y: 0.000000015612157, z: -0.15328896, w: 0.9881814}
+  m_LocalPosition: {x: -0.15945274, y: -0.00000015258789, z: -0.000000076293944}
+  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1877883055538861901}
+  m_Father: {fileID: 5721121957101800872}
+  m_LocalEulerAnglesHint: {x: 4.458731e-14, y: 8.418279e-15, z: -79.30759}
+--- !u!1001 &4778924905917826130
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5052434858796392838}
+    m_Modifications:
+    - target: {fileID: 2890922287441858210, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.20784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890922287441858210, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890922287441858210, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2399979
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.4799995
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642766282230003982, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_Name
+      value: CFXR2 Souls Escape
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660836441076557303, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660836442491109402, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4208956261938065561, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2200207438830408570}
+  m_SourcePrefab: {fileID: 100100000, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c, type: 3}
+--- !u!4 &870719760825030086 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4778924905917826130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8663537593696564427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4208956261938065561, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4778924905917826130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2200207438830408570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8663537593696564427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
