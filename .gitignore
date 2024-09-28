@@ -15,15 +15,19 @@
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/[Aa]rt/[Aa]ssets/**/*.meta
 
-[Aa]ssets/[Aa]rt/[Aa]ssets/Fantasy characters(pack)/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Altar_Ruins_FREE/
+[Aa]ssets/[Aa]rt/[Aa]ssets/EffectExamples/
 [Aa]ssets/[Aa]rt/[Aa]ssets/FencesPack/
 [Aa]ssets/[Aa]rt/[Aa]ssets/GreenBugGames/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Hand Painted Tiles - SleepingForest/
 [Aa]ssets/[Aa]rt/[Aa]ssets/HEROIC FANTASY CREATURES FULL PACK VOL 1/
 [Aa]ssets/[Aa]rt/[Aa]ssets/HouseRef/
 [Aa]ssets/[Aa]rt/[Aa]ssets/Rocks and Boulders 2/
 [Aa]ssets/[Aa]rt/[Aa]ssets/RPG MEDIEVAL PROPS/
 [Aa]ssets/[Aa]rt/[Aa]ssets/Stylized Nature Pack/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Sun_Temple/
 [Aa]ssets/[Aa]rt/[Aa]ssets/Toby Fredson/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Viking/
 
 
 # They also could contain extremely sensitive data
