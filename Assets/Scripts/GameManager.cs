@@ -10,16 +10,15 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    void Start()
-    {
-        UsoCursor(0);
-    }
+    [Header ("PANELES UI")]
+    public GameObject pnlPause;
 
-    
-    void Update()
-    {
-        UsoCursor(1);
-    }
+    [Header ("BANDERAS")]
+    public bool enJuego = false;
+
+
+    [SerializeField]
+    private bool estaPausado = false;
 
     public void Awake()
     {
@@ -32,7 +31,45 @@ public class GameManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this);
         }
-    }    
+    }
+
+    void Start()
+    {
+        UsoCursor(0);
+        IniciarJuego(); //SE DEBE BORRAR CUANDO QUEDE HECHA LA TRANSICIÓN
+    }
+
+    
+    void Update()
+    {
+        ActivarPausa();
+    }
+
+    void ActivarPausa(){
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            estaPausado = !estaPausado;
+            Pausa();
+        }
+    }
+
+    public void Pausa()
+    {
+        if (estaPausado)
+        {
+            Time.timeScale = 0;
+            pnlPause.SetActive(true);
+            UsoCursor(1);
+            enJuego = false;
+        }
+        else
+        {
+            Time.timeScale = 1;
+            pnlPause.SetActive(false);
+            UsoCursor(0);
+            enJuego = true;
+        }
+    }
 
     void UsoCursor(int estado){
         switch(estado){
@@ -49,5 +86,10 @@ public class GameManager : MonoBehaviour
                 }
             break;
         }
+    }
+
+    void IniciarJuego(){
+        enJuego = true;
+        //AQUI PONES TODA LA TRANSICIÓN DE CINEMÁTICA -> INSTRUCCIONES
     }
 }

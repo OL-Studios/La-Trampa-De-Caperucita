@@ -1,15 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using Jugador;
+using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 
 namespace Enemigos{
     public class AtaqueJefe : MonoBehaviour
     {
-        public float quitaSaludJugador;
-        public Animator aniJefe;
-        public bool enContactoJugador = false;
-        public int frameAtaque;
+        #region Variables
+            [Header ("PERSONAJE")]
+            public Animator aniJefe;
+            public int frameAtaque;
+
+            [Header ("DAÑO JUGADOR")]
+            public float quitaSaludJugador;
+            public bool enContactoJugador = false;
+        #endregion
 
         void Update()
         {
@@ -17,10 +23,14 @@ namespace Enemigos{
         }
         
         private void OnTriggerEnter(Collider other) {
-            if(other.CompareTag("Player")){
+            if (other.CompareTag("Player")) {
                 enContactoJugador = true;
                 Debug.Log("Garra en contacto con jugador");
             }
+        }
+
+        private void OnTriggerExit(Collider other) {
+            enContactoJugador = false;
         }
 
         void AtacandoJugador(){

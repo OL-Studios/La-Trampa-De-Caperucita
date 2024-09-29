@@ -23,7 +23,7 @@ namespace Recolectables{
         }
         void Update()
         {
-            cuentaRegresiva -= Time.deltaTime; // Conteo regresivo para la explosión de la manzana
+            cuentaRegresiva -= Time.deltaTime;              // Conteo regresivo para la explosión de la manzana
             if(cuentaRegresiva <= 0 && detono == false)
             {
                 Explosion();
@@ -58,7 +58,6 @@ namespace Recolectables{
             }
             gameObject.GetComponent<CapsuleCollider>().enabled = false;
             Destroy(gameObject);
-            //Destroy(explosionParticles, 7f);
         }
     }
 }

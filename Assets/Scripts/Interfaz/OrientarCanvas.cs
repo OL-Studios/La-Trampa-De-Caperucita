@@ -6,7 +6,7 @@ namespace Assets.Scripts.Interfaz
 {
     public class OrientarCanvas : MonoBehaviour
     {
-        private Transform camPrincipal;                                 // Referencia a la c�mara principal (se asignar� autom�ticamente en tiempo de ejecuci�n)
+        private Transform camPrincipal;                                 // Referencia a la camara principal
 
         void Update()
         {
@@ -24,7 +24,7 @@ namespace Assets.Scripts.Interfaz
                 transform.rotation = Quaternion.Euler(0f, rotacionDeseada.eulerAngles.y, 0f);   // Aplica la rotaci�n solo al eje Y
             }
         }
-        private void BuscarCamaraPrincipal()                                                    // M�todo para buscar la c�mara principal y asignar la referencia
+        private void BuscarCamaraPrincipal()                                                    
         {
             Camera camaraPrincipal = Camera.main;
             if (camaraPrincipal != null)                                                        // Verifica si se encontr� la c�mara principal

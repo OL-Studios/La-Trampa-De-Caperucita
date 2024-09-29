@@ -8,13 +8,22 @@ namespace Jugador
 {
     public class JugadorVida : MonoBehaviour
     {
-        public static JugadorVida Instance { get; private set; }
+        #region Variables
+            public static JugadorVida Instance { get; private set; }
 
-        [Header ("Salud")]
-        public float saludMax;
-        public float saludActual;
-        public JugadorMovimiento jugadorMov;
-        public Image barSaludJugador;
+            [Header ("SALUD")]
+            public float saludMax;
+            public float saludActual;
+
+            [Header ("REFERENCIAS")]
+            public JugadorMovimiento jugadorMov;
+
+            [Header ("UI")]
+            public Image barSaludJugador;
+
+            [Header ("BANDERAS")]
+            public bool estaVivo;
+        #endregion
         
         private void Awake()
         {
@@ -31,6 +40,7 @@ namespace Jugador
         void Start()
         {
             saludActual = saludMax;
+            estaVivo = true;
         }
 
         void Update(){
@@ -58,6 +68,7 @@ namespace Jugador
         void PerderJuego()
         {
             Debug.Log("Muere el jugador");
+            estaVivo = false;
             jugadorMov.animatorJugador.SetTrigger("Muere");
             Destroy(gameObject, 3f);
         }

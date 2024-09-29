@@ -5659,9 +5659,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 7897583661816760693}
-  saludActulEnemigo: 0
+  saludActualEnemigo: 0
   saludMaxEnemigo: 30
-  quitaSaludJugador: 1
+  quitaSaludJugador: 0.2
   rangoDeteccion: 5
   rangoAtaque: 3
   navMeshAgent: {fileID: 735212988311428037}

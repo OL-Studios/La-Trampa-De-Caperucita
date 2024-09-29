@@ -7,47 +7,52 @@ using Enemigos;
 namespace Jugador {
     public class JugadorCombate : MonoBehaviour
     {
-        [Header ("Jugador")]
-        public Animator aniJugador;
+        #region Variables
+            [Header ("JUGADOR")]
+            public Animator aniJugador;
 
-        [Header ("Manzana")]
-        public int cantManzanas = 0;
-        public GameObject manzanaMano;
-        public GameObject nuevaManzana;
-        public Transform puntoSalidaManzana;
-        public float fuerzaLanzamiento;
+            [Header ("MANZANA")]
+            public int cantManzanas = 0;
+            public GameObject manzanaMano;
+            public GameObject nuevaManzana;
+            public Transform puntoSalidaManzana;
+            public float fuerzaLanzamiento;
 
-        private EnemigosMenores componenteEnemigo;
-        private LoboJefe componenteLobo;
+            [Header ("ENEMIGOS")]
+            private EnemigosMenores componenteEnemigo;
+            private LoboJefe componenteLobo;
+            
+            [Header ("RESTA DE SALID A ENEMIGOS")]
+            public int cantAtaqueUno;
+            public int cantAtaqueDos;
 
-        [Header ("Banderas")]
-        private bool enContactoEnemigo = false;
-        private bool manzanaActiva = false;
-        private bool efecto1Reproducido = false;
-        private bool efecto2Reproducido = false;
-        private bool efecto3Reproducido = false;
+            [Header ("BANDERAS")]
+            private bool enContactoEnemigo = false;
+            private bool manzanaActiva = false;
+            private bool efecto1Reproducido = false;
+            private bool efecto2Reproducido = false;
+            private bool efecto3Reproducido = false;
 
-        [Header ("Resta de salud a enemigos")]
-        public int cantAtaqueUno;
-        public int cantAtaqueDos;
+            [Header ("UI")]
+            public TMP_Text txtCantManzana;
 
-        [Header ("UI")]
-        public TMP_Text txtCantManzana;
-
-        [Header ("VFX")]
-        public ParticleSystem vfxAtaqueUno;
-        public ParticleSystem vfxAtaqueDos;
-        public ParticleSystem vfxAtaqueTres;
-        public ParticleSystem vfxGolpe;
+            [Header ("VFX")]
+            public ParticleSystem vfxAtaqueUno;
+            public ParticleSystem vfxAtaqueDos;
+            public ParticleSystem vfxAtaqueTres;
+            public ParticleSystem vfxGolpe;
+        #endregion
 
         void Update()
         {
             txtCantManzana.text = "" + cantManzanas;
-            Ataque();
-            ActivarManzanaBomba();
-            LanzarManzana();
-            ComprobarFrameYReproducirEfectos();
-            AtacandoEnemigos();
+            if(GameManager.Instance.enJuego){
+                Ataque();
+                ActivarManzanaBomba();
+                LanzarManzana();
+                ComprobarFrameYReproducirEfectos();
+                AtacandoEnemigos();
+            }
         }
 
         private void OnTriggerEnter(Collider other) {
@@ -177,16 +182,12 @@ namespace Jugador {
        
         #region Ataque a A Enemigos
             void AtacandoEnemigos(){
-                AnimatorStateInfo estadoAnimacion = aniJugador.GetCurrentAnimatorStateInfo(0);
-
-                // Verificar si se está reproduciendo la animación "Ataque-1" o "Ataque-2"
-                if (estadoAnimacion.IsName("Ataque-1")){
+                AnimatorStateInfo estadoAnimacion = aniJugador.GetCurrentAnimatorStateInfo(0);                
+                if (estadoAnimacion.IsName("Ataque-1")){                    // Verificar si se está reproduciendo la animación "Ataque-1" o "Ataque-2"
                     ProcesarAtaque(19, "Golpe 1 a enemigo", cantAtaqueUno);
-                    //vfxGolpe.Stop();
                 }
                 else if (estadoAnimacion.IsName("Ataque-2")){
                     ProcesarAtaque(new int[] { 22, 34, 38 }, "Golpe 2 a enemigo", cantAtaqueDos);
-                    //vfxGolpe.Stop();
                 }
             }
 

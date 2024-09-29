@@ -6,27 +6,31 @@ namespace Jugador
 {
     public class JugadorMovimiento : MonoBehaviour
     {
-        [Header ("Desplazamiento")]
-        public float velCorrer;
-        public float velRotacion;
-        public Animator animatorJugador;
-        private float ejeX, ejeY;
+        #region Variables
+            [Header ("DESPLAZAMIENTO")]
+            public float velCorrer;
+            public float velRotacion;
+            public Animator animatorJugador;
+            private float ejeX, ejeY;
 
-        [Header ("Salto")]
-        public Rigidbody rbJugador;
-        public float alturaSalto;
-        public Transform comprobacionSuelo;
-        public float distanciaSuelo;
-        public LayerMask mascaraSuelo;
-        private bool enSuelo;
-        private bool estaRodando = false; // Bandera para saber si está rodando
-       
+            [Header ("SALTO")]
+            public Rigidbody rbJugador;
+            public float alturaSalto;
+            public Transform comprobacionSuelo;
+            public float distanciaSuelo;
+            public LayerMask mascaraSuelo;
+            private bool enSuelo;
+            private bool estaRodando = false;
+       #endregion
+
         void Update()
         {
-            if (!estaRodando)  // Solo permitir el movimiento si no está rodando
-            {
-                MovimientoJugador();
-                SaltoJugador();
+            if(GameManager.Instance.enJuego){
+                if (!estaRodando)               // Solo permitir el movimiento si no está rodando
+                {
+                    MovimientoJugador();
+                    SaltoJugador();
+                }
             }
 
             Rollito();
@@ -54,21 +58,15 @@ namespace Jugador
             if (Input.GetKeyDown(KeyCode.LeftAlt) && !estaRodando)
             {
                 animatorJugador.SetTrigger("rollo");
-                StartCoroutine(EsperarFinDeAnimacion("Rollo")); // Nombre del estado de animación "rollo"
+                StartCoroutine(EsperarFinDeAnimacion("Rollo"));
             }
         }
 
-        // Coroutine para bloquear el movimiento durante la animación del rollo
-        private IEnumerator EsperarFinDeAnimacion(string nombreAnimacion)
+        private IEnumerator EsperarFinDeAnimacion(string nombreAnimacion)   // Coroutine para bloquear el movimiento durante la animación del rollo
         {
             estaRodando = true;
-
-            // Esperar a que comience la animación
-            yield return new WaitUntil(() => animatorJugador.GetCurrentAnimatorStateInfo(0).IsName(nombreAnimacion));
-
-            // Esperar a que la animación termine
-            yield return new WaitWhile(() => animatorJugador.GetCurrentAnimatorStateInfo(0).IsName(nombreAnimacion));
-
+            yield return new WaitUntil(() => animatorJugador.GetCurrentAnimatorStateInfo(0).IsName(nombreAnimacion));   // Esperar a que comience la animación
+            yield return new WaitWhile(() => animatorJugador.GetCurrentAnimatorStateInfo(0).IsName(nombreAnimacion));   // Esperar a que la animación termine
             estaRodando = false;  // Volver a habilitar el movimiento
         }
     }

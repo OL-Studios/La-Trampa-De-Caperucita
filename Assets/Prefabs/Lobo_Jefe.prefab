@@ -1365,7 +1365,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7684068840918111722}
-  - component: {fileID: 5994511378184542778}
   - component: {fileID: 7077002127234935641}
   m_Layer: 0
   m_Name: WEREWOLF_ Head
@@ -1390,27 +1389,6 @@ Transform:
   - {fileID: 3284324440380996133}
   m_Father: {fileID: 4364447666187744268}
   m_LocalEulerAnglesHint: {x: 0.00005504022, y: -0.00012026669, z: 49.182625}
---- !u!65 &5994511378184542778
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6319425341816523529}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.647093, y: 1.5115123, z: 1}
-  m_Center: {x: 0.4134938, y: -0.105237514, z: 0.00000019842794}
 --- !u!135 &7077002127234935641
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1539,6 +1517,7 @@ GameObject:
   - component: {fileID: 5052434858796392838}
   - component: {fileID: 6851696355813479086}
   - component: {fileID: 970864970004264115}
+  - component: {fileID: 8543349541785112781}
   - component: {fileID: 3633499837364433048}
   - component: {fileID: 2130864864952379811}
   - component: {fileID: 6856380793773614669}
@@ -1616,6 +1595,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!65 &8543349541785112781
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2.9001167, z: 1.5831299}
+  m_Center: {x: 0, y: 2.1890967, z: 0.29156494}
 --- !u!136 &3633499837364433048
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1681,11 +1681,11 @@ MonoBehaviour:
   navMeshJefe: {fileID: 2130864864952379811}
   aniJefe: {fileID: 6851696355813479086}
   vfxAtaque: {fileID: 0}
-  vfxMuerteJefe: {fileID: 0}
-  colliderJefe: {fileID: 5994511378184542778}
+  vfxMuerteJefe: {fileID: 1070542277861555382}
+  colliderJefe: {fileID: 8543349541785112781}
   barSaludJefe: {fileID: 0}
   enReaccionGolpe: 0
-  impulseSource: {fileID: 6224123239794866562}
+  freeLookCamera: {fileID: 0}
 --- !u!114 &6224123239794866562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,7 +1700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ImpulseDefinition:
     m_ImpulseChannel: 1
-    m_ImpulseShape: 4
+    m_ImpulseShape: 2
     m_CustomImpulseShape:
       serializedVersion: 2
       m_Curve: []
@@ -1736,7 +1736,7 @@ MonoBehaviour:
     m_ImpactRadius: 100
     m_DirectionMode: 0
     m_DissipationMode: 2
-    m_DissipationDistance: 10
+    m_DissipationDistance: 5
     m_PropagationSpeed: 343
   m_DefaultVelocity: {x: 1, y: 1, z: 1}
 --- !u!1 &7273052990132476309
@@ -2326,6 +2326,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5052434858796392838}
     m_Modifications:
+    - target: {fileID: 114114994653804418, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2890922287441858210, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
         type: 3}
       propertyPath: m_Color.g
@@ -2339,6 +2344,11 @@ PrefabInstance:
     - target: {fileID: 2890922287441858210, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
         type: 3}
       propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515065002404772068, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
@@ -2411,10 +2421,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR2 Souls Escape
       objectReference: {fileID: 0}
+    - target: {fileID: 7660836441076557302, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7660836441076557303, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660836442491109401, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7660836442491109402, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
         type: 3}
@@ -2433,6 +2453,12 @@ PrefabInstance:
 --- !u!4 &870719760825030086 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5640562698000028052, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4778924905917826130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1070542277861555382 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5515065002404772068, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c,
     type: 3}
   m_PrefabInstance: {fileID: 4778924905917826130}
   m_PrefabAsset: {fileID: 0}

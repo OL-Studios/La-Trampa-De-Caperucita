@@ -32,12 +32,11 @@ namespace Assets.Scripts.Interfaz
 
         public void MostrarSiguienteFrase()
         {
-            // Cambiar al siguiente diálogo solo si hay más frases
-            if (indiceFraseActual < frases.Length - 1)
+            if (indiceFraseActual < frases.Length - 1)                          // Cambiar al siguiente diálogo solo si hay más frases
             {
                 indiceFraseActual++;
-                texto.text = "";                        // Limpiar el texto antes de mostrar la siguiente frase
-                StopAllCoroutines();                    // Detener cualquier animación de texto anterior
+                texto.text = "";                                                // Limpiar el texto antes de mostrar la siguiente frase
+                StopAllCoroutines();                                            // Detener cualquier animación de texto anterior
                 StartCoroutine(MostrarFrase(frases[indiceFraseActual]));
             }
         }

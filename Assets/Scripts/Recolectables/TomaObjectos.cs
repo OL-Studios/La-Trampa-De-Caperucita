@@ -15,9 +15,13 @@ namespace Recolectables{
         public GameObject panelInfo;
         public bool zonaActiva;
 
-        public JugadorCombate jugador;
-
+        [SerializeField]
+        private JugadorCombate jugador;
         public TipoRecolectable recolectable;
+
+        private void Start() {
+            jugador = GameObject.FindWithTag("Player").GetComponent<JugadorCombate>();
+        }
 
         private void Update() {
             if(Input.GetKeyDown(KeyCode.E) && zonaActiva){

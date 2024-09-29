@@ -5,11 +5,14 @@ using UnityEngine;
 namespace Jugador{
     public class RegenerarSalud : MonoBehaviour
     {
-        public int saludParaRegenerar;
-        public float tiempoEntreRegeneracion = 1f;
-        private int saludRegenerada = 0;
-        private bool jugadorDentro = false; 
-        private JugadorVida jugadorVida;
+        #region Variables
+            [Header ("VALORES")]
+            public int saludParaRegenerar;
+            public float tiempoEntreRegeneracion = 1f;
+            private int saludRegenerada = 0;
+            private bool jugadorDentro = false; 
+            private JugadorVida jugadorVida;
+        #endregion
 
         private void OnTriggerEnter(Collider other)
         {

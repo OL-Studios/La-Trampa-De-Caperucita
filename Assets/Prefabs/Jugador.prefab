@@ -20702,10 +20702,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35cf4ae39fef88c47993ca75ec7513b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludMax: 300
+  saludMax: 10
   saludActual: 0
   jugadorMov: {fileID: 4552192536570663580}
   barSaludJugador: {fileID: 0}
+  estaVivo: 0
 --- !u!114 &4552192536570663580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20741,7 +20742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aniJugador: {fileID: 7762813862255673804}
-  cantManzanas: 4
+  cantManzanas: 1
   manzanaMano: {fileID: 8066728014275876763}
   nuevaManzana: {fileID: 2467249650424548897, guid: b05e72111f72e564c99015ae1fe3c9af,
     type: 3}
