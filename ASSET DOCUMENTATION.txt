@@ -10,13 +10,24 @@ LOS QUE SE INSTALAN, QUEDAN INSTALADOS EN LA CARPETA GENERAL DE ASSETS,
 RECUERDEN POR FAVOR PASARLO A LA CARPETA DE ART Y ASSETS COMO DICE LA RUTA,
 O NO FUNCIONARA
 
+DESCARGAR LINK = AL ARCHIVO QUE LES ENVIO POR WE TRANSFER, TENER LISTOS ESOS ASSETS DESCARGADOS PARA YO DECIRLES COMO VAN
 
-[Aa]ssets/[Aa]rt/[Aa]ssets/Fantasy characters(pack)/INSTALAR Y ENVIADO
+
+[Aa]ssets/[Aa]rt/[Aa]ssets/AllSkyFree/https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014
+[Aa]ssets/[Aa]rt/[Aa]ssets/Altar_Ruins_FREE/https://assetstore.unity.com/packages/3d/environments/fantasy/altar-ruins-free-109065
+[Aa]ssets/[Aa]rt/[Aa]ssets/EffectExamples/https://assetstore.unity.com/packages/vfx/particles/legacy-particle-pack-73777
 [Aa]ssets/[Aa]rt/[Aa]ssets/FencesPack/https://assetstore.unity.com/packages/3d/environments/realistic-fences-pack-211850
-[Aa]ssets/[Aa]rt/[Aa]ssets/GreenBugGames/https://assetstore.unity.com/packages/3d/vegetation/scan-stump-vol-1-196185
-[Aa]ssets/[Aa]rt/[Aa]ssets/HEROIC FANTASY CREATURES FULL PACK VOL 1/
-[Aa]ssets/[Aa]rt/[Aa]ssets/HouseRef/INSTALAR Y ENVIADO
-[Aa]ssets/[Aa]rt/[Aa]ssets/Rocks and Boulders 2/https://assetstore.unity.com/packages/3d/props/exterior/rock-and-boulders-2-6947/
-[Aa]ssets/[Aa]rt/[Aa]ssets/RPG MEDIEVAL PROPS/https://assetstore.unity.com/packages/3d/props/rpg-medieval-props-demo-248681/
-[Aa]ssets/[Aa]rt/[Aa]ssets/Stylized Nature Pack/INSTALAR Y ENVIADO
-[Aa]ssets/[Aa]rt/[Aa]ssets/Toby Fredson/https://assetstore.unity.com/packages/2d/textures-materials/painted-tiles-sleeping-forest-49170/
+[Aa]ssets/[Aa]rt/[Aa]ssets/Hand Painted Tiles - SleepingForest/https://assetstore.unity.com/packages/2d/textures-materials/painted-tiles-sleeping-forest-49170/
+[Aa]ssets/[Aa]rt/[Aa]ssets/HouseRef/DESCARGAR LINK
+[Aa]ssets/[Aa]rt/[Aa]ssets/ObstacleCoursePack/https://assetstore.unity.com/packages/templates/packs/obstacle-course-pack-178169
+[Aa]ssets/[Aa]rt/[Aa]ssets/orc-house/DESCARGAR LINK
+[Aa]ssets/[Aa]rt/[Aa]ssets/Rocks and Boulders 2/https://assetstore.unity.com/packages/3d/props/exterior/rock-and-boulders-2-6947
+[Aa]ssets/[Aa]rt/[Aa]ssets/RPG MEDIEVAL PROPS/https://assetstore.unity.com/packages/3d/props/rpg-medieval-props-demo-248681
+[Aa]ssets/[Aa]rt/[Aa]ssets/Stylized Nature Pack/DESCARGAR LINK
+[Aa]ssets/[Aa]rt/[Aa]ssets/Sun_Temple/https://assetstore.unity.com/packages/3d/environments/sun-temple-115417
+[Aa]ssets/[Aa]rt/[Aa]ssets/training-dummy/DESCARGAR LINK
+[Aa]ssets/[Aa]rt/[Aa]ssets/Trap/DESCARGAR LINK
+[Aa]ssets/[Aa]rt/[Aa]ssets/Viking/DESCARGAR LINK
+
+
+
