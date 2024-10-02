@@ -5,6 +5,8 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Jugador;
+using Enemigos;
+using DotLiquid.Util;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,13 +14,20 @@ public class GameManager : MonoBehaviour
 
     [Header ("PANELES UI")]
     public GameObject pnlPause;
+    public GameObject panelDerrota;  // Panel de Derrota
+    public GameObject panelVictoria; // Panel de Victoria
 
     [Header ("BANDERAS")]
     public bool enJuego = false;
-
-
     [SerializeField]
     private bool estaPausado = false;
+
+    [Header("JUGADORES")]
+    public JugadorVida jugador;  // Referencia al script JugadorVida
+    public LoboJefe loboJefe;    // Referencia al script del LoboJefe
+    [SerializeField]
+    private bool terminoJuego = false;
+
 
     public void Awake()
     {
@@ -36,13 +45,21 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         UsoCursor(0);
-        IniciarJuego(); //SE DEBE BORRAR CUANDO QUEDE HECHA LA TRANSICIÓN
+        //IniciarJuego(); //SE DEBE BORRAR CUANDO QUEDE HECHA LA TRANSICIÓN
     }
 
-    
+    public void CargarMenu()
+    {
+        Debug.Log("Menu button pressed");
+        SceneManager.LoadScene("MenuInicial");
+    }
+
     void Update()
     {
         ActivarPausa();
+        RevisarSaludJugador();
+        RevisarDerrotaJefe();
+
     }
 
     void ActivarPausa(){
@@ -55,14 +72,14 @@ public class GameManager : MonoBehaviour
 
     public void Pausa()
     {
-        if (estaPausado)
+        if (estaPausado && !terminoJuego)
         {
             Time.timeScale = 0;
             pnlPause.SetActive(true);
             UsoCursor(1);
             enJuego = false;
         }
-        else
+        else //if (!estaPausado && !terminoJuego)
         {
             Time.timeScale = 1;
             pnlPause.SetActive(false);
@@ -79,7 +96,7 @@ public class GameManager : MonoBehaviour
             break;
 
             case 1:
-                if (Input.GetKeyDown(KeyCode.Escape))
+                if (Input.GetKeyDown(KeyCode.Escape)|| terminoJuego)
                 {
                     Cursor.lockState = CursorLockMode.None;
                     Cursor.visible = true;
@@ -91,5 +108,51 @@ public class GameManager : MonoBehaviour
     void IniciarJuego(){
         enJuego = true;
         //AQUI PONES TODA LA TRANSICIÓN DE CINEMÁTICA -> INSTRUCCIONES
+    }
+
+
+
+
+    // Proceso panel derrota y victoria
+    void RevisarSaludJugador()
+    {
+        if (jugador.saludActual <= 0)
+        {
+            terminoJuego = true;
+            MostrarPanelDerrota();
+        }
+    }
+
+    void RevisarDerrotaJefe()
+    {
+        if (loboJefe.saludActualJefe <= 0)
+        {
+            terminoJuego = true;
+            MostrarPanelVictoria();
+        }
+    }
+
+    void MostrarPanelDerrota()
+    {
+        // Otras acciones como pausar el juego
+        if (terminoJuego)
+        {
+            Time.timeScale = 0;
+            panelDerrota.SetActive(true);
+            UsoCursor(1);
+            enJuego = false;
+        }
+    }
+
+    void MostrarPanelVictoria()
+    {
+ 
+        if (terminoJuego)
+        {
+            Time.timeScale = 0;
+            panelVictoria.SetActive(true);
+            UsoCursor(1);
+            enJuego = false;
+        }
     }
 }

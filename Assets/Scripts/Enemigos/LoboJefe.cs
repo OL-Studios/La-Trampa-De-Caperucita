@@ -37,6 +37,7 @@ namespace Enemigos{
         #endregion
 
         void Start(){
+            gameObject.SetActive(true);
             saludActualJefe = saludMaxJefe;
         }
         void Update()
@@ -124,7 +125,9 @@ namespace Enemigos{
             void ActualizaSaludEnemigo()
             {
                 float fillAmount = (float)saludActualJefe / (float)saludMaxJefe;
-                barSaludJefe.fillAmount = fillAmount;
+                if (barSaludJefe != null) { 
+                    barSaludJefe.fillAmount = fillAmount;
+                }
             }
 
             public void MuerteJefe()
@@ -137,9 +140,15 @@ namespace Enemigos{
                     vfxMuerteJefe.Play();
                     vfxAtaque.Stop();
                     JugadorVida.Instance.jugadorMov.animatorJugador.SetTrigger("MuereJefe");
-                    Destroy(gameObject, 4f);
-                }
+                    Invoke("Inactivar", 4f);
             }
-            #endregion 
+            }
+
+
+            private void Inactivar()
+            {
+                gameObject.SetActive(false); // Desactiva el objeto
+            }
+        #endregion
     }
 }
