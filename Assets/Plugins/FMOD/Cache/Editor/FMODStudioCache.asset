@@ -1,5 +1,227 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7801926617658585192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  Guid:
+    Data1: 1827758190
+    Data2: 1110090022
+    Data3: -243095371
+    Data4: 2030045967
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96000
+--- !u!114 &-5352896899560935719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puas
+  m_EditorClassIdentifier: 
+  Path: event:/Puas
+  Guid:
+    Data1: 1403702840
+    Data2: 1192503059
+    Data3: -1232181116
+    Data4: 187586499
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12200
+--- !u!114 &-4865564971122323141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient Forest
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient Forest
+  Guid:
+    Data1: -1259173922
+    Data2: 1285032118
+    Data3: 1358292155
+    Data4: 1670598703
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 191705
+--- !u!114 &-3998423462722426107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient low
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient low
+  Guid:
+    Data1: -1711400596
+    Data2: 1230687918
+    Data3: 341980810
+    Data4: 392010248
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 579242
+--- !u!114 &-3155805699498738443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638634195093151640
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &-2799889803153066640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Manzana ambeinte
+  m_EditorClassIdentifier: 
+  Path: event:/Manzana ambeinte
+  Guid:
+    Data1: 1186912034
+    Data2: 1209899195
+    Data3: 64995733
+    Data4: -1587451152
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &-1862944805796164891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638634195093161647
+  FileSizes:
+  - Name: Desktop
+    Value: 806
+  Exists: 1
+--- !u!114 &-879146672460479979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AllSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/AllSounds.bank
+  Name: AllSounds
+  StudioPath: bank:/AllSounds
+  lastModified: 638634208077848568
+  FileSizes:
+  - Name: Desktop
+    Value: 923616
+  Exists: 1
+--- !u!114 &-630366345553912414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador Interaccion Manzana
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador Interaccion Manzana
+  Guid:
+    Data1: 1833573373
+    Data2: 1101122767
+    Data3: -1460980570
+    Data4: 1425840824
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2700
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +234,304 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 7589762538166584095}
+  - {fileID: 1867499717874615203}
+  - {fileID: 1801158377420853416}
+  EditorEvents:
+  - {fileID: -7801926617658585192}
+  - {fileID: 8146265611476899699}
+  - {fileID: -3998423462722426107}
+  - {fileID: 8992055790677991079}
+  - {fileID: 1789488351580125218}
+  - {fileID: 2326884857723946484}
+  - {fileID: 3568572337220056297}
+  - {fileID: -5352896899560935719}
+  - {fileID: 7712090201339238816}
+  - {fileID: -630366345553912414}
+  - {fileID: -4865564971122323141}
+  - {fileID: -2799889803153066640}
+  - {fileID: 5546115654290686959}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: 1801158377420853416}
+  StringsBanks:
+  - {fileID: 7589762538166584095}
+  cacheTime: 638635103062658949
   cacheVersion: 131620
+--- !u!114 &1789488351580125218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WolfAu
+  m_EditorClassIdentifier: 
+  Path: event:/WolfAu
+  Guid:
+    Data1: 1186874111
+    Data2: 1335874288
+    Data3: 1023032760
+    Data4: -977805793
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14850
+--- !u!114 &1801158377420853416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638635103062658949
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &1867499717874615203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AllSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/AllSounds.bank
+  Name: AllSounds
+  StudioPath: bank:/AllSounds
+  lastModified: 638635103062608902
+  FileSizes:
+  - Name: Desktop
+    Value: 26125664
+  Exists: 1
+--- !u!114 &2326884857723946484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/JugadorMuerte
+  m_EditorClassIdentifier: 
+  Path: event:/JugadorMuerte
+  Guid:
+    Data1: 1818976309
+    Data2: 1194324348
+    Data3: 139940768
+    Data4: 1059407251
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2904
+--- !u!114 &3568572337220056297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/JugadorCorrer
+  m_EditorClassIdentifier: 
+  Path: event:/JugadorCorrer
+  Guid:
+    Data1: -1333439641
+    Data2: 1131826800
+    Data3: -1047969348
+    Data4: -947761623
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &5546115654290686959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Punto curacion ambiente
+  m_EditorClassIdentifier: 
+  Path: event:/Punto curacion ambiente
+  Guid:
+    Data1: 441000083
+    Data2: 1157012634
+    Data3: -1382123097
+    Data4: 1346223507
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5950
+--- !u!114 &7589762538166584095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638635103062658949
+  FileSizes:
+  - Name: Desktop
+    Value: 1368
+  Exists: 1
+--- !u!114 &7712090201339238816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explosion Manzana
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion Manzana
+  Guid:
+    Data1: -624513059
+    Data2: 1199362708
+    Data3: -1231721585
+    Data4: 1666555617
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1139
+--- !u!114 &7827008474704881451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  Guid:
+    Data1: 1827758190
+    Data2: 1110090022
+    Data3: -243095371
+    Data4: 2030045967
+  Banks:
+  - {fileID: -879146672460479979}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96000
+--- !u!114 &8146265611476899699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fuego
+  m_EditorClassIdentifier: 
+  Path: event:/Fuego
+  Guid:
+    Data1: -1722069004
+    Data2: 1089860993
+    Data3: -547492202
+    Data4: -978338385
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5874
+--- !u!114 &8992055790677991079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient Birds
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient Birds
+  Guid:
+    Data1: -2054644491
+    Data2: 1321304534
+    Data3: -313577850
+    Data4: -1341196290
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 109000
