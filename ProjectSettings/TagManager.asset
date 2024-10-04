@@ -12,6 +12,8 @@ TagManager:
   - Enemigo
   - Jefe
   - Puerta
+  - Puas
+  - Caida
   layers:
   - Default
   - TransparentFX
