@@ -252,12 +252,13 @@ MonoBehaviour:
   - {fileID: -4865564971122323141}
   - {fileID: -2799889803153066640}
   - {fileID: 5546115654290686959}
+  - {fileID: 2691560421760493392}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1801158377420853416}
   StringsBanks:
   - {fileID: 7589762538166584095}
-  cacheTime: 638635103062658949
+  cacheTime: 638636056232060820
   cacheVersion: 131620
 --- !u!114 &1789488351580125218
 MonoBehaviour:
@@ -301,7 +302,7 @@ MonoBehaviour:
   Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638635103062658949
+  lastModified: 638636056231980747
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -321,10 +322,10 @@ MonoBehaviour:
   Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/AllSounds.bank
   Name: AllSounds
   StudioPath: bank:/AllSounds
-  lastModified: 638635103062608902
+  lastModified: 638636056231940771
   FileSizes:
   - Name: Desktop
-    Value: 26125664
+    Value: 26701632
   Exists: 1
 --- !u!114 &2326884857723946484
 MonoBehaviour:
@@ -353,6 +354,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2904
+--- !u!114 &2691560421760493392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music2
+  m_EditorClassIdentifier: 
+  Path: event:/Music2
+  Guid:
+    Data1: 1504087497
+    Data2: 1096122955
+    Data3: 1417496458
+    Data4: 1874717100
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29538
 --- !u!114 &3568572337220056297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,10 +450,10 @@ MonoBehaviour:
   Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638635103062658949
+  lastModified: 638636056232060820
   FileSizes:
   - Name: Desktop
-    Value: 1368
+    Value: 1410
   Exists: 1
 --- !u!114 &7712090201339238816
 MonoBehaviour:
