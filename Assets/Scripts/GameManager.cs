@@ -7,20 +7,37 @@ using UnityEngine.UI;
 using Jugador;
 using Enemigos;
 using DotLiquid.Util;
+using Assets.Scripts.Interfaz;
+using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [Header ("PANELES UI")]
+    [Header ("UI")]
+    public GameObject pnlMenu;
     public GameObject pnlPause;
     public GameObject panelDerrota;  // Panel de Derrota
-    public GameObject panelVictoria; // Panel de Victoria
+    public GameObject panelVictoria;  // Panel de Derrota
+    public GameObject panelCinemática; 
+    //public GameObject hudJugador;
+    //public GameObject hudLobo;
+    public GameObject cuadroDialogos;
+    //public TMP_Text txtEstadoCarga;
+    public GameObject imgCarga;
+    public Image imgEstadoCarga;
+    public TMP_Text txtPorcentajeCarga;
+    public VideoPlayer videoCinematica;
 
     [Header ("BANDERAS")]
     public bool enJuego = false;
+    public bool cargaJuego = false;
     [SerializeField]
     private bool estaPausado = false;
+
+    public SistemaDialogos sistemaDialogos;
+    public Animator puerta;
+
 
     [Header("JUGADORES")]
     public JugadorVida jugador;  // Referencia al script JugadorVida
@@ -33,25 +50,13 @@ public class GameManager : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(this);
+            Destroy(this.gameObject);  // Asegúrate de destruir el objeto si ya existe una instancia previa
         }
         else
         {
             Instance = this;
-            DontDestroyOnLoad(this);
+            DontDestroyOnLoad(this.gameObject);  // No destruyas el GameManager al cambiar de escena
         }
-    }
-
-    void Start()
-    {
-        UsoCursor(0);
-        //IniciarJuego(); //SE DEBE BORRAR CUANDO QUEDE HECHA LA TRANSICIÓN
-    }
-
-    public void CargarMenu()
-    {
-        Debug.Log("Menu button pressed");
-        SceneManager.LoadScene("MenuInicial");
     }
 
     void Update()
@@ -59,11 +64,34 @@ public class GameManager : MonoBehaviour
         ActivarPausa();
         RevisarSaludJugador();
         RevisarDerrotaJefe();
+        /*if(Input.GetKeyDown(KeyCode.Tab)){
+            cargaJuego = true;
+            IniciarJuego();
+        }*/
+    }
+    public void CargarMenu()
+    {
+        SceneManager.LoadScene("MenuInicial");
+        StartCoroutine(ReiniciarValores());
+    }
 
+    private IEnumerator ReiniciarValores()
+    {
+        Time.timeScale = 1;
+        sistemaDialogos.ReiniciarDialogos();
+        estaPausado = false;
+        pnlMenu.SetActive(true);
+        JugadorVida.Instance.saludActual = JugadorVida.Instance.saludMax;
+        enJuego = false;
+        
+        yield return new WaitForSeconds(0.1f);  
+
+        cuadroDialogos.SetActive(false); 
+        pnlPause.SetActive(false);
     }
 
     void ActivarPausa(){
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && enJuego)
         {
             estaPausado = !estaPausado;
             Pausa();
@@ -105,30 +133,60 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void IniciarJuego(){
-        enJuego = true;
-        //AQUI PONES TODA LA TRANSICIÓN DE CINEMÁTICA -> INSTRUCCIONES
+    public void IniciarJuego(){
+        cargaJuego = false;
+        videoCinematica.Pause();
+        StartCoroutine(LoadSceneAsync("Main"));
     }
 
+    IEnumerator LoadSceneAsync(string sceneName)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);      // Inicia la carga asíncrona de la escena
+        while (!operation.isDone)                                               // Mientras la escena se carga, actualiza la barra de progreso
+        {
+            imgCarga.SetActive(true);
+            imgEstadoCarga.fillAmount = operation.progress;                     // Asigna el progreso a la barra de carga
+            float progreso = Mathf.Clamp01(operation.progress / 0.9f) * 100f;   // El progreso puede ir de 0 a 1, por lo que multiplicamos por 100 para convertirlo a porcentaje
+            txtPorcentajeCarga.text = progreso.ToString("F0") + "%";            // F0 formatea a número entero
+        
+            yield return null;                                  
+        }
 
+        // Estas líneas se ejecutarán cuando la escena esté completamente cargada
+        enJuego = true;
+        imgCarga.SetActive(false);
+        cuadroDialogos.SetActive(true);
+        sistemaDialogos.EstadoInstrucciones(0);
+        jugador = GameObject.FindWithTag("Player").GetComponent<JugadorVida>();
+        loboJefe = GameObject.FindWithTag("Jefe").GetComponent<LoboJefe>();
+        puerta = GameObject.FindWithTag("Puerta").GetComponent<Animator>();
+        cuadroDialogos.SetActive(true);
+        imgCarga.SetActive(false);
+        panelCinemática.SetActive(false);
+    }
 
 
     // Proceso panel derrota y victoria
     void RevisarSaludJugador()
     {
-        if (jugador.saludActual <= 0)
-        {
-            terminoJuego = true;
-            MostrarPanelDerrota();
+        if(enJuego == true){
+            if (jugador.saludActual <= 0)
+            {
+                terminoJuego = true;
+                MostrarPanelDerrota();
+            }
         }
     }
 
     void RevisarDerrotaJefe()
     {
-        if (loboJefe.saludActualJefe <= 0)
-        {
-            terminoJuego = true;
-            MostrarPanelVictoria();
+        if(enJuego == true){
+
+            if (loboJefe.saludActualJefe <= 0)
+            {
+                terminoJuego = true;
+                MostrarPanelVictoria();
+            }
         }
     }
 

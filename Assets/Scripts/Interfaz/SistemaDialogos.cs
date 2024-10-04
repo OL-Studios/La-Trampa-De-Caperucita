@@ -25,9 +25,29 @@ namespace Assets.Scripts.Interfaz
         
         private int indiceFraseActual = 0;
 
-        void Start()
+        public void ReiniciarDialogos()
         {
-            StartCoroutine(MostrarFrase(frases[indiceFraseActual]));
+            indiceFraseActual = 0;  // Reiniciar el índice al primer diálogo
+            texto.text = "";        
+            StopAllCoroutines();    // Detener cualquier animación de texto anterior
+            StartCoroutine(MostrarFrase(frases[indiceFraseActual]));  // Iniciar el primer diálogo
+        }
+
+        public void CerrarInstrucciones(){
+            EstadoInstrucciones(1);
+        }
+
+        public void EstadoInstrucciones(int estado){
+            switch(estado){
+                case 0:
+                    StartCoroutine(MostrarFrase(frases[indiceFraseActual]));
+                break;
+
+                case 1:
+                    GameManager.Instance.cuadroDialogos.SetActive(false);
+                    GameManager.Instance.puerta.SetTrigger("Puerta_Abierta");
+                break;
+            }
         }
 
         public void MostrarSiguienteFrase()
@@ -38,6 +58,10 @@ namespace Assets.Scripts.Interfaz
                 texto.text = "";                                                // Limpiar el texto antes de mostrar la siguiente frase
                 StopAllCoroutines();                                            // Detener cualquier animación de texto anterior
                 StartCoroutine(MostrarFrase(frases[indiceFraseActual]));
+            }else
+            {
+                // Al llegar al último texto
+                StartCoroutine(FinalizarDialogo());
             }
         }
 
@@ -46,8 +70,16 @@ namespace Assets.Scripts.Interfaz
             foreach (char caracter in frase)
             {
                 texto.text += caracter;
-                yield return new WaitForSeconds(0.05f);
+                yield return new WaitForSeconds(0.03f);
             }
+        }
+
+        IEnumerator FinalizarDialogo()
+        {
+            yield return new WaitForSeconds(2); // Esperar 2 segundos
+            ReiniciarDialogos();                // Reiniciar los diálogos
+            GameManager.Instance.cuadroDialogos.SetActive(false); // Desactivar el cuadro de diálogos
+            GameManager.Instance.puerta.SetTrigger("Puerta_Abierta");
         }
     }
 }

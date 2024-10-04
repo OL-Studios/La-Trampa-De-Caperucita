@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b45ac60aaf16f9419b0f6d072f2b6cc
+guid: b9fbeca7e6c745945ae5cddd91811dd5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,62 +121,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: pag_Iconos_0
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 800
-        width: 1615
-        height: 1996
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82d037e34a0ee0347a2c944c8998258f
-      internalID: -894980793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pag_Iconos_1
-      rect:
-        serializedVersion: 2
-        x: 1663
-        y: 800
-        width: 1615
-        height: 2000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fddfe89745c85324e8ab644cbf743f23
-      internalID: 1354757290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 39e1701abe62498439f8295b55ceb65a
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      pag_Iconos_0: -894980793
-      pag_Iconos_1: 1354757290
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

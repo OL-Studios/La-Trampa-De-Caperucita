@@ -10,20 +10,36 @@ public class VideoaEscena : MonoBehaviour
 
     void Start()
     {
-        // Vincular el evento solo si no est� ya vinculado
-        if (!isEventAttached)
+        // Reasignar la cámara principal en cada inicio de escena
+        if (videoPlayer.targetCamera == null || videoPlayer.targetCamera != Camera.main)
         {
-            videoPlayer.loopPointReached += OnVideoEnd;
-            isEventAttached = true; // Marcar el evento como vinculado
+            videoPlayer.targetCamera = Camera.main;
+        }
+
+        // Si estamos en la escena "MenuInicial", intentar asignar la cámara
+        if (SceneManager.GetActiveScene().name == "MenuInicial")
+        {
+            AsignarMainCamera();
         }
     }
 
     void Update()
     {
-        // Verifica si se presiona la tecla Escape
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
             CargarSiguienteEscena();
+        }
+        // Solo buscar la cámara si estamos en la escena "MenuInicial" y aún no está asignada
+        if (SceneManager.GetActiveScene().name == "MenuInicial" && videoPlayer.targetCamera == null)
+        {
+            AsignarMainCamera();
+        }
+    }
+    void AsignarMainCamera()
+    {
+        if (Camera.main != null)
+        {
+            videoPlayer.targetCamera = Camera.main;
         }
     }
 
@@ -34,8 +50,9 @@ public class VideoaEscena : MonoBehaviour
 
     void CargarSiguienteEscena()
     {
-        // Puedes cambiar "Main" por el nombre real de tu escena
+        GameManager.Instance.cargaJuego = true;
         SceneManager.LoadScene("Main");
+        GameManager.Instance.IniciarJuego();
     }
 
     private void OnDestroy()

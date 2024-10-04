@@ -6,8 +6,8 @@ public class GameManagerGlobal : MonoBehaviour
     //public static GameManagerGlobal Instance { get; private set; }
 
     [Header("PANELES UI")]
-    public GameObject canvasCreditos; // Canvas de créditos
-    public GameObject canvasCinematica; // Canvas de créditos
+    public GameObject canvasCreditos; // Canvas de crï¿½ditos
+    public GameObject canvasCinematica; // Canvas de crï¿½ditos
     public GameObject canvasMenu;
 
     public void CargarCinamatica()

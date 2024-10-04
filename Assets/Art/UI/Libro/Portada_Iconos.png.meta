@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b45ac60aaf16f9419b0f6d072f2b6cc
+guid: 1a8e9eff41a1b9746a7bddd70ea9165c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pag_Iconos_0
+      name: Portada_Iconos_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 800
-        width: 1615
-        height: 1996
+        x: 1671
+        y: 717
+        width: 1611
+        height: 2003
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82d037e34a0ee0347a2c944c8998258f
-      internalID: -894980793
+      spriteID: 32e85d682fffac04097c9fc514713b7e
+      internalID: 638078060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pag_Iconos_1
+      name: Portada_Iconos_1
       rect:
         serializedVersion: 2
-        x: 1663
-        y: 800
-        width: 1615
-        height: 2000
+        x: 52
+        y: 720
+        width: 1623
+        height: 1997
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fddfe89745c85324e8ab644cbf743f23
-      internalID: 1354757290
+      spriteID: 2be53808866b47f43830306e2a764266
+      internalID: 11004935
       vertices: []
       indices: 
       edges: []
@@ -167,7 +167,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 39e1701abe62498439f8295b55ceb65a
+    spriteID: 35910879aa34ff84484bf4326ac3c84c
     internalID: 0
     vertices: []
     indices: 
@@ -175,8 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pag_Iconos_0: -894980793
-      pag_Iconos_1: 1354757290
+      Portada_Iconos_0: 638078060
+      Portada_Iconos_1: 11004935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

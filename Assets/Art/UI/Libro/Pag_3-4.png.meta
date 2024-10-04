@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0876cebda8b155348ac8aaeb2bbabf05
+guid: b5188e330e58ff743bf9b4a8b171cd76
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Recurso 17_0
+      name: UI_Iconos_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 17
-        width: 389
-        height: 478
+        x: 57
+        y: 695
+        width: 1628
+        height: 2012
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 261f30731e7ffd94181817e36c1186e1
-      internalID: 1019404032
+      spriteID: 3df643a22697f984bafc890e354223da
+      internalID: 2052311649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Recurso 17_1
+      name: UI_Iconos_1
       rect:
         serializedVersion: 2
-        x: 389
-        y: 17
-        width: 386
-        height: 478
+        x: 1671
+        y: 708
+        width: 1619
+        height: 1999
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94e9087acd94c324e97a06e3100e1098
-      internalID: 163357390
+      spriteID: 22d2f7e86f7f3e244ac9511b79f7c8db
+      internalID: 707384975
       vertices: []
       indices: 
       edges: []
@@ -167,7 +167,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bd370a3d1a0e9ac43840c486a905fd8a
+    spriteID: b705c354507019f4cb700623ba8c7355
     internalID: 0
     vertices: []
     indices: 
@@ -175,8 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Recurso 17_0: 1019404032
-      Recurso 17_1: 163357390
+      UI_Iconos_0: 2052311649
+      UI_Iconos_1: 707384975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
