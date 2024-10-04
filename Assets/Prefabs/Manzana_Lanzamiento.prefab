@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoDemora: 2
-  rango: 5
+  rango: 10
   fuerzaExplocion: 30
   detono: 0
   vfxExplosion: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312,

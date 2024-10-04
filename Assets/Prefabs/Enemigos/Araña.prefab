@@ -16774,19 +16774,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1624474804874752765}
   saludActualEnemigo: 0
-  saludMaxEnemigo: 30
-  quitaSaludJugador: 0.1
-  rangoDeteccion: 5
+  saludMaxEnemigo: 33
+  colliderEnemigo: {fileID: 661244295516113836}
+  quitaSaludJugador: 0.3
+  rangoDeteccion: 6
   rangoAtaque: 1.1
   navMeshAgent: {fileID: 847245170294792208}
   animator: {fileID: 4535141464685609438}
   nombreAniMuerte: "Muerte_Ara\xF1a"
   nombreAniReaccion: "Hit_Ara\xF1a"
+  enReaccion: 0
+  barSaludEnemigo: {fileID: 3771347161568443480}
   vfxVeneno: {fileID: 1508948403765031542}
   vfxMuerte: {fileID: 7187123128375805108}
-  colliderEnemigo: {fileID: 661244295516113836}
-  barSaludEnemigo: {fileID: 3771347161568443480}
-  enReaccion: 0
 --- !u!1 &8000107710262664469
 GameObject:
   m_ObjectHideFlags: 0

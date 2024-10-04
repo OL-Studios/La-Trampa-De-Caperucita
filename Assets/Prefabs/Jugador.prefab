@@ -22185,7 +22185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35cf4ae39fef88c47993ca75ec7513b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludMax: 10
+  saludMax: 100
   saludActual: 0
   jugadorMov: {fileID: 4552192536570663580}
   barSaludJugador: {fileID: 0}
@@ -22202,11 +22202,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f888c1083f50e04f99647166d59d2bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velCorrer: 5
+  velCorrer: 7
   velRotacion: 200
   animatorJugador: {fileID: 7762813862255673804}
   rbJugador: {fileID: 1237727123663641994}
-  alturaSalto: 1
+  alturaSalto: 12
   comprobacionSuelo: {fileID: 1120285852091457061}
   distanciaSuelo: 0.1
   mascaraSuelo:
@@ -22231,8 +22231,8 @@ MonoBehaviour:
     type: 3}
   puntoSalidaManzana: {fileID: 1434170461590965122}
   fuerzaLanzamiento: 300
-  cantAtaqueUno: 2
-  cantAtaqueDos: 4
+  cantAtaqueUno: 15
+  cantAtaqueDos: 20
   txtCantManzana: {fileID: 0}
   vfxAtaqueUno: {fileID: 8359331272455669786}
   vfxAtaqueDos: {fileID: 8312375558184304362}

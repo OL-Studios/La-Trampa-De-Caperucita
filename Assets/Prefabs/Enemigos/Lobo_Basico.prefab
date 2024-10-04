@@ -5660,19 +5660,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 7897583661816760693}
   saludActualEnemigo: 0
-  saludMaxEnemigo: 30
-  quitaSaludJugador: 0.2
-  rangoDeteccion: 5
-  rangoAtaque: 3
+  saludMaxEnemigo: 40
+  colliderEnemigo: {fileID: 3067031611699061446}
+  quitaSaludJugador: 0.5
+  rangoDeteccion: 8
+  rangoAtaque: 2
   navMeshAgent: {fileID: 735212988311428037}
   animator: {fileID: 3103436249276497263}
   nombreAniMuerte: Muerte_Lobo_Basico
   nombreAniReaccion: Reaccion_Lobo
+  enReaccion: 0
+  barSaludEnemigo: {fileID: 8941971262001479170}
   vfxVeneno: {fileID: 8862078528682840895}
   vfxMuerte: {fileID: 3812475443341562791}
-  colliderEnemigo: {fileID: 3067031611699061446}
-  barSaludEnemigo: {fileID: 8941971262001479170}
-  enReaccion: 0
 --- !u!1 &2381963317866504318
 GameObject:
   m_ObjectHideFlags: 0
