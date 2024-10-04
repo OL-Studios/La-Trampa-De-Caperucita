@@ -10247,6 +10247,8 @@ GameObject:
   - component: {fileID: 4459322293946647874}
   - component: {fileID: 6629940685918461683}
   - component: {fileID: 7084570166146198426}
+  - component: {fileID: 7510966891373213655}
+  - component: {fileID: 6054773852411966421}
   m_Layer: 0
   m_Name: Toma_Manzana
   m_TagString: Manzana
@@ -10264,7 +10266,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.087, y: 0.836, z: 4.58}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 333787880315176186}
@@ -10309,6 +10311,68 @@ MonoBehaviour:
   zonaActiva: 0
   jugador: {fileID: 0}
   recolectable: 0
+--- !u!114 &7510966891373213655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4243072847201722908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 1833573373
+      Data2: 1101122767
+      Data3: -1460980570
+      Data4: 1425840824
+    Path: event:/Jugador Interaccion Manzana
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &6054773852411966421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4243072847201722908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1186912034
+      Data2: 1209899195
+      Data3: 64995733
+      Data4: -1587451152
+    Path: event:/Manzana ambeinte
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7398806252486559287
 GameObject:
   m_ObjectHideFlags: 0

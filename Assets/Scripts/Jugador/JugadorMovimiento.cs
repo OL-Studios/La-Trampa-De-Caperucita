@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 namespace Jugador
 {
@@ -21,7 +22,7 @@ namespace Jugador
             public LayerMask mascaraSuelo;
             private bool enSuelo;
             private bool estaRodando = false;
-       #endregion
+        #endregion
 
         void Update()
         {
@@ -43,7 +44,8 @@ namespace Jugador
             transform.Translate(0, 0, ejeY * Time.deltaTime * velCorrer);
             animatorJugador.SetFloat("velGirar", ejeX);
             animatorJugador.SetFloat("velCorrer", ejeY);
-        }
+
+    }
 
         void SaltoJugador(){
             enSuelo = Physics.CheckSphere(comprobacionSuelo.position, distanciaSuelo, mascaraSuelo);
@@ -69,5 +71,6 @@ namespace Jugador
             yield return new WaitWhile(() => animatorJugador.GetCurrentAnimatorStateInfo(0).IsName(nombreAnimacion));   // Esperar a que la animación termine
             estaRodando = false;  // Volver a habilitar el movimiento
         }
+
     }
 }
