@@ -3733,7 +3733,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 346070960}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1859591806191600, guid: 67bc459a0b3356f40acf743f7b250d1c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 89302837}
   m_SourcePrefab: {fileID: 100100000, guid: 67bc459a0b3356f40acf743f7b250d1c, type: 3}
 --- !u!4 &89302835 stripped
 Transform:
@@ -3741,6 +3745,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 89302834}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &89302836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1859591806191600, guid: 67bc459a0b3356f40acf743f7b250d1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 89302834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &89302837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89302836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1722069004
+      Data2: 1089860993
+      Data3: -547492202
+      Data4: -978338385
+    Path: event:/Fuego
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &93221597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13224,7 +13265,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 199289305}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1859591806191600, guid: 67bc459a0b3356f40acf743f7b250d1c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 304700770}
   m_SourcePrefab: {fileID: 100100000, guid: 67bc459a0b3356f40acf743f7b250d1c, type: 3}
 --- !u!4 &304700768 stripped
 Transform:
@@ -13232,6 +13277,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 304700767}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &304700769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1859591806191600, guid: 67bc459a0b3356f40acf743f7b250d1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 304700767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &304700770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304700769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1722069004
+      Data2: 1089860993
+      Data3: -547492202
+      Data4: -978338385
+    Path: event:/Fuego
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &305447513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21867,7 +21949,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 73122594}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1859591806191600, guid: 67bc459a0b3356f40acf743f7b250d1c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 559049171}
   m_SourcePrefab: {fileID: 100100000, guid: 67bc459a0b3356f40acf743f7b250d1c, type: 3}
 --- !u!4 &559049169 stripped
 Transform:
@@ -21875,6 +21961,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 559049168}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &559049170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1859591806191600, guid: 67bc459a0b3356f40acf743f7b250d1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 559049168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &559049171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559049170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1722069004
+      Data2: 1089860993
+      Data3: -547492202
+      Data4: -978338385
+    Path: event:/Fuego
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &565825661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49577,7 +49700,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1553894636}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1859591806191600, guid: 67bc459a0b3356f40acf743f7b250d1c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244528584}
   m_SourcePrefab: {fileID: 100100000, guid: 67bc459a0b3356f40acf743f7b250d1c, type: 3}
 --- !u!4 &1244528582 stripped
 Transform:
@@ -49585,6 +49712,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1244528581}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1244528583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1859591806191600, guid: 67bc459a0b3356f40acf743f7b250d1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1244528581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1244528584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244528583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1722069004
+      Data2: 1089860993
+      Data3: -547492202
+      Data4: -978338385
+    Path: event:/Fuego
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1247557012
 PrefabInstance:
   m_ObjectHideFlags: 0
