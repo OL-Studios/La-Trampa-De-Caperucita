@@ -40,8 +40,8 @@ public class GameManager : MonoBehaviour
 
 
     [Header("JUGADORES")]
-    public JugadorVida jugador;  // Referencia al script JugadorVida
-    public LoboJefe loboJefe;    // Referencia al script del LoboJefe
+    public JugadorVida jugador;  
+    public LoboJefe loboJefe;    
     [SerializeField]
     private bool terminoJuego = false;
 
@@ -50,12 +50,12 @@ public class GameManager : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(this.gameObject);  // Asegúrate de destruir el objeto si ya existe una instancia previa
+            Destroy(this.gameObject);
         }
         else
         {
             Instance = this;
-            DontDestroyOnLoad(this.gameObject);  // No destruyas el GameManager al cambiar de escena
+            DontDestroyOnLoad(this.gameObject); 
         }
     }
 
@@ -64,10 +64,6 @@ public class GameManager : MonoBehaviour
         ActivarPausa();
         RevisarSaludJugador();
         RevisarDerrotaJefe();
-        /*if(Input.GetKeyDown(KeyCode.Tab)){
-            cargaJuego = true;
-            IniciarJuego();
-        }*/
     }
     public void CargarMenu()
     {
@@ -88,6 +84,8 @@ public class GameManager : MonoBehaviour
 
         cuadroDialogos.SetActive(false); 
         pnlPause.SetActive(false);
+        panelDerrota.SetActive(false);
+        panelVictoria.SetActive(false);
     }
 
     void ActivarPausa(){

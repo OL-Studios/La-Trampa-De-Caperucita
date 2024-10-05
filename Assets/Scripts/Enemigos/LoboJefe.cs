@@ -141,7 +141,7 @@ namespace Enemigos{
                     vfxAtaque.Stop();
                     JugadorVida.Instance.jugadorMov.animatorJugador.SetTrigger("MuereJefe");
                     Invoke("Inactivar", 4f);
-            }
+                }
             }
 
 

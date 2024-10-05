@@ -59,12 +59,12 @@ namespace Jugador {
             if(other.CompareTag("Enemigo")){
                 enContactoEnemigo = true;
                 componenteEnemigo = other.GetComponent<EnemigosMenores>();
-                Debug.Log("Daga en contacto con enemigo");
+                //Debug.Log("Daga en contacto con enemigo");
             }
             if(other.CompareTag("Jefe")){
                 enContactoEnemigo = true;
                 componenteLobo = other.GetComponent<LoboJefe>();
-                Debug.Log("Daga en contacto con Jefe");
+                //Debug.Log("Daga en contacto con Jefe");
             }
         }
 
@@ -213,7 +213,7 @@ namespace Jugador {
             }
 
             void EjecutarGolpe(string mensaje, int daño){
-                Debug.Log(mensaje);
+                //Debug.Log(mensaje);
                 if (componenteEnemigo != null){
                     vfxGolpe.Play();
                     componenteEnemigo.saludActualEnemigo -= daño;

@@ -26,7 +26,7 @@ namespace Recolectables{
         private void Update() {
             if(Input.GetKeyDown(KeyCode.E) && zonaActiva){
                 if(recolectable == TipoRecolectable.Manzana){
-                    Debug.Log("Tomó Manzana");
+                    //Debug.Log("Tomó Manzana");
                     jugador.cantManzanas++;
                 }
                 Destroy(gameObject);
@@ -39,7 +39,7 @@ namespace Recolectables{
                 {
                     zonaActiva = true;
                     panelInfo.SetActive(true);
-                    Debug.Log("Entró a zona activa");
+                    //Debug.Log("Entró a zona activa");
                 }
             }
 
@@ -48,7 +48,7 @@ namespace Recolectables{
                 {
                     zonaActiva = false;
                     panelInfo.SetActive(false);
-                    Debug.Log("Salió de zona activa");
+                    //Debug.Log("Salió de zona activa");
                 }
             }
     }

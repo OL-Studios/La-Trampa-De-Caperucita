@@ -67,7 +67,7 @@ namespace Jugador
 
         void PerderJuego()
         {
-            Debug.Log("Muere el jugador");
+            //Debug.Log("Muere el jugador");
             estaVivo = false;
             jugadorMov.animatorJugador.SetTrigger("Muere");
             Destroy(gameObject, 3f);

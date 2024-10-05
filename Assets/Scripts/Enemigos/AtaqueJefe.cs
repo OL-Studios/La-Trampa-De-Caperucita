@@ -25,7 +25,7 @@ namespace Enemigos{
         private void OnTriggerEnter(Collider other) {
             if (other.CompareTag("Player")) {
                 enContactoJugador = true;
-                Debug.Log("Garra en contacto con jugador");
+                //Debug.Log("Garra en contacto con jugador");
             }
         }
 
@@ -45,7 +45,7 @@ namespace Enemigos{
             if (frameActual == frameObjetivo && enContactoJugador){
                 enContactoJugador = false;
                 JugadorVida.Instance.TomarDaño(daño);
-                Debug.Log(mensajeGolpe);
+                //Debug.Log(mensajeGolpe);
             }
         }
 
