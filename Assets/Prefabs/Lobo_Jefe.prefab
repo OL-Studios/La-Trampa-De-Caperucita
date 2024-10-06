@@ -1522,6 +1522,8 @@ GameObject:
   - component: {fileID: 2130864864952379811}
   - component: {fileID: 6856380793773614669}
   - component: {fileID: 6224123239794866562}
+  - component: {fileID: 7397451389468436464}
+  - component: {fileID: 711377877273765123}
   m_Layer: 0
   m_Name: Lobo_Jefe
   m_TagString: Jefe
@@ -1738,6 +1740,68 @@ MonoBehaviour:
     m_DissipationDistance: 5
     m_PropagationSpeed: 343
   m_DefaultVelocity: {x: 1, y: 1, z: 1}
+--- !u!114 &7397451389468436464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1186874111
+      Data2: 1335874288
+      Data3: 1023032760
+      Data4: -977805793
+    Path: event:/WolfAu
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &711377877273765123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246651046775130469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -574594282
+      Data2: 1297719898
+      Data3: 1986056580
+      Data4: -782237102
+    Path: event:/WolfAtacando
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7273052990132476309
 GameObject:
   m_ObjectHideFlags: 0

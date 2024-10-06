@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8655082298818071659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SeleccionarBoton
+  m_EditorClassIdentifier: 
+  Path: event:/SeleccionarBoton
+  Guid:
+    Data1: 146919530
+    Data2: 1099323604
+    Data3: 549424011
+    Data4: 255375792
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3159
 --- !u!114 &-7801926617658585192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,6 +54,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 96000
+--- !u!114 &-6537276202345488766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Ara\xF1a caminando"
+  m_EditorClassIdentifier: 
+  Path: "event:/Ara\xF1a caminando"
+  Guid:
+    Data1: 705266401
+    Data2: 1316627656
+    Data3: -1669832549
+    Data4: -1612612833
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23578
+--- !u!114 &-5519979815885948079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jugador ataque
+  m_EditorClassIdentifier: 
+  Path: event:/Jugador ataque
+  Guid:
+    Data1: 948320784
+    Data2: 1267562805
+    Data3: -141899608
+    Data4: -201594566
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1372
 --- !u!114 &-5352896899560935719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +162,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 191705
+--- !u!114 &-4838216704460424595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HooverBoton
+  m_EditorClassIdentifier: 
+  Path: event:/HooverBoton
+  Guid:
+    Data1: -677899224
+    Data2: 1121514913
+    Data3: -660024905
+    Data4: 185394010
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1386
+--- !u!114 &-4429434801206168771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Canva Music
+  m_EditorClassIdentifier: 
+  Path: event:/Canva Music
+  Guid:
+    Data1: -174490908
+    Data2: 1237476410
+    Data3: 265197747
+    Data4: 1014377841
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 59076
 --- !u!114 &-3998423462722426107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +290,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10000
+--- !u!114 &-1866418498152175580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WolfMuerte
+  m_EditorClassIdentifier: 
+  Path: event:/WolfMuerte
+  Guid:
+    Data1: -783717209
+    Data2: 1120995038
+    Data3: 1921016718
+    Data4: 862946203
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2849
 --- !u!114 &-1862944805796164891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,13 +415,50 @@ MonoBehaviour:
   - {fileID: -2799889803153066640}
   - {fileID: 5546115654290686959}
   - {fileID: 2691560421760493392}
+  - {fileID: -4838216704460424595}
+  - {fileID: -8655082298818071659}
+  - {fileID: 4887323228185749765}
+  - {fileID: 1450251464299412124}
+  - {fileID: 2017584834376625130}
+  - {fileID: -6537276202345488766}
+  - {fileID: -4429434801206168771}
+  - {fileID: -1866418498152175580}
+  - {fileID: 8773831573337376716}
+  - {fileID: -5519979815885948079}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1801158377420853416}
   StringsBanks:
   - {fileID: 7589762538166584095}
-  cacheTime: 638636056232060820
+  cacheTime: 638637624446175062
   cacheVersion: 131620
+--- !u!114 &1450251464299412124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Ara\xF1a atacando"
+  m_EditorClassIdentifier: 
+  Path: "event:/Ara\xF1a atacando"
+  Guid:
+    Data1: -259961658
+    Data2: 1326491587
+    Data3: -252017019
+    Data4: 1099057961
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1640
 --- !u!114 &1789488351580125218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +501,7 @@ MonoBehaviour:
   Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638636056231980747
+  lastModified: 638637624446165051
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -322,11 +521,38 @@ MonoBehaviour:
   Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/AllSounds.bank
   Name: AllSounds
   StudioPath: bank:/AllSounds
-  lastModified: 638636056231940771
+  lastModified: 638637624446104994
   FileSizes:
   - Name: Desktop
-    Value: 26701632
+    Value: 28977856
   Exists: 1
+--- !u!114 &2017584834376625130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pause
+  m_EditorClassIdentifier: 
+  Path: event:/Pause
+  Guid:
+    Data1: -49996844
+    Data2: 1205016548
+    Data3: -1312958078
+    Data4: -681216486
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 986
 --- !u!114 &2326884857723946484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,6 +634,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 400
+--- !u!114 &4887323228185749765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Ara\xF1a muerte"
+  m_EditorClassIdentifier: 
+  Path: "event:/Ara\xF1a muerte"
+  Guid:
+    Data1: 421768378
+    Data2: 1159952839
+    Data3: -536809840
+    Data4: 1515678256
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1087
 --- !u!114 &5546115654290686959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,10 +703,10 @@ MonoBehaviour:
   Path: ../../Mario/PROYECTOS FMOD/LA TRAMPA DE CAPERUCITA TRULY/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638636056232060820
+  lastModified: 638637624446175062
   FileSizes:
   - Name: Desktop
-    Value: 1410
+    Value: 1882
   Exists: 1
 --- !u!114 &7712090201339238816
 MonoBehaviour:
@@ -536,6 +789,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5874
+--- !u!114 &8773831573337376716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WolfAtacando
+  m_EditorClassIdentifier: 
+  Path: event:/WolfAtacando
+  Guid:
+    Data1: -574594282
+    Data2: 1297719898
+    Data3: 1986056580
+    Data4: -782237102
+  Banks:
+  - {fileID: 1867499717874615203}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &8992055790677991079
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16621,6 +16621,8 @@ GameObject:
   - component: {fileID: 661244295516113836}
   - component: {fileID: 847245170294792208}
   - component: {fileID: 7136856586275908953}
+  - component: {fileID: 206972629769992245}
+  - component: {fileID: 617720983555492034}
   m_Layer: 0
   m_Name: "Ara\xF1a"
   m_TagString: Enemigo
@@ -16787,6 +16789,68 @@ MonoBehaviour:
   barSaludEnemigo: {fileID: 3771347161568443480}
   vfxVeneno: {fileID: 1508948403765031542}
   vfxMuerte: {fileID: 7187123128375805108}
+--- !u!114 &206972629769992245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490163506224403590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -259961658
+      Data2: 1326491587
+      Data3: -252017019
+      Data4: 1099057961
+    Path: "event:/Ara\xF1a atacando"
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &617720983555492034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490163506224403590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 421768378
+      Data2: 1159952839
+      Data3: -536809840
+      Data4: 1515678256
+    Path: "event:/Ara\xF1a muerte"
+  Event: 
+  EventPlayTrigger: 2
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8000107710262664469
 GameObject:
   m_ObjectHideFlags: 0
