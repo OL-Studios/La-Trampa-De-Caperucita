@@ -5,7 +5,7 @@ using UnityEngine.Video;
 
 public class VideoaEscena : MonoBehaviour
 {
-    public VideoPlayer videoPlayer; // Referencia al Video Player
+    public VideoPlayer videoPlayer;
     private bool isEventAttached = false; // Control para el evento
 
     void Start()
@@ -20,6 +20,13 @@ public class VideoaEscena : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "MenuInicial")
         {
             AsignarMainCamera();
+        }
+
+        // Vincular el evento si no lo hemos hecho aún
+        if (!isEventAttached)
+        {
+            videoPlayer.loopPointReached += OnVideoEnd; // Vincula el evento al final del video
+            isEventAttached = true;
         }
     }
 
@@ -62,6 +69,6 @@ public class VideoaEscena : MonoBehaviour
         {
             videoPlayer.loopPointReached -= OnVideoEnd;
             isEventAttached = false; // Restablecer el control
-        }
+        }
     }
 }
